@@ -1,0 +1,41 @@
+.form-login{
+    display: flex;
+    justify-content: space-around
+}
+.register{
+    width: 30%;
+    text-align: center;
+}
+.register-content{
+    height: 170px;
+}
+.login{
+    width: 40%;
+}
+.input-login{
+    height: 170px;
+    text-align: center;
+}
+.input-form__btn{
+    text-align: center;
+    margin-top: 20px;
+    bottom: 0;
+    align-items: center;
+    width: 100px;
+    background-color: rgb(71, 139, 240);
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+.input-form__item{
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    &__label{
+        min-width: 100px;
+    }
+}
+.btn-form{
+    text-align: center;
+}

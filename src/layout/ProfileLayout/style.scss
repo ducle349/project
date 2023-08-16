@@ -1,0 +1,10 @@
+.layoutprofile{
+    display: flex;
+    &_sibar{
+        width: 30%;
+    }
+    &_content{
+        margin-top: 20px;
+        width: 60%;
+    }
+}

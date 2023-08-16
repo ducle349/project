@@ -1,0 +1,20 @@
+.producs-body{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    &__search{
+        width: 20%;
+    }
+    &__product{
+        width: 80%;
+    }
+}
+@media  screen and  (max-width:1023px) {
+    .producs-body{
+        display: flex;
+        justify-content: space-between;
+        &__search{
+            width: 20%;
+        }
+    }
+}

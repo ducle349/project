@@ -1,0 +1,38 @@
+.cart{
+    margin: 10px;
+    position: relative;
+    &-content{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+.input-form__input{
+    width: 300px;
+}
+.pay{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    padding: 10px;
+    text-align: center;
+    border: 1 solid black;
+    background-color: rgba($color: #6d5a5a, $alpha: 0.1);
+}
+.table{
+    border: 1;
+    padding: 10px;
+    text-align: center;
+    width: 70%;
+}
+
+label{
+    align-items: center;
+    cursor: pointer;
+}
+.block_pay{
+    text-align: center;
+    &_item{
+        text-align: center;
+        margin: 5px;
+    }
+}

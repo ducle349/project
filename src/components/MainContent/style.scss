@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    margin-top: 156px;
+}
+.product{
+    padding: 30px;
+    &-item{
+        padding: 10px;
+    }
+}
+.title{
+   padding: 10px;
+   border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(58, 71, 84, 1);
+    
+}
+.col-item{
+    padding: 10px;
+    border: 0.5px solid black;
+}
+.card{
+    min-height: 400px;
+}
+.card:hover{
+    background-color: rgba(58, 71, 84, 0.2);
+}

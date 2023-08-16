@@ -1,0 +1,820 @@
+{
+  "users": [
+    {
+      "name": "dụcdj",
+      "numberphone": "123466558",
+      "address": "hòa khánh",
+      "email": "duc@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "le minh duc",
+      "numberphone": "0396957819",
+      "address": "22 quang thanh 2",
+      "email": "ducaaa@gmail.com",
+      "password": "123123",
+      "id": 2
+    }
+  ],
+  "shoes": [
+    {
+      "id": 1,
+      "producer": "nike",
+      "title": "Giày nike Air Max Command Nam - Xám Xanh",
+      "price": 2690000,
+      "size": [
+        39,
+        41,
+        42,
+        43
+      ],
+      "description": "Giày nam Nike Air Max Command là một trong những sản phẩm kinh điển của hãng thể thao Nike, trải qua gần 30 năm lịch sử Nike Air Max Command đã làm say đắm hàng triệu người yêu giày trên thế giới.Với thiết kế đẹp mắt, form dáng chắc chắn, cảm giác di chuyển vô cùng thoải mái cùng với công nghệ ngày càng hoàn hảo của Nike, Air Max Command là một sự lựa chọn tuyệt vời cho tất cả mọi người đặc biệt là bạn trẻ năng động. Đây chắc chắn sẽ là đôi giày giúp bạn tự tin trên mọi cung đường mà bạn bước đến. Giày Nam Nike Air Max Command tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/nike/nk012/giay-nike-air-max-command-nam-xam-xanh-01-1000x1000.jpg"
+    },
+    {
+      "id": 2,
+      "producer": "nike",
+      "title": "GIÀY NIKE AIR MAX COMMAND NAM - XÁM NAVY",
+      "price": 1490000,
+      "size": [
+        39,
+        40,
+        41
+      ],
+      "description": "Giày nam Nike Air Max Command là một trong những sản phẩm kinh điển của hãng thể thao Nike, trải qua gần 30 năm lịch sử Nike Air Max Command đã làm say đắm hàng triệu người yêu giày trên thế giới.Với thiết kế đẹp mắt, form dáng chắc chắn, cảm giác di chuyển vô cùng thoải mái cùng với công nghệ ngày càng hoàn hảo của Nike, Air Max Command là một sự lựa chọn tuyệt vời cho tất cả mọi người đặc biệt là bạn trẻ năng động. Đây chắc chắn sẽ là đôi giày giúp bạn tự tin trên mọi cung đường mà bạn bước đến. Giày Nam Nike Air Max Command tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/nike/nk012/giay-nike-air-max-command-nam-xam-navy-01-800x800.jpg"
+    },
+    {
+      "id": 3,
+      "producer": "nike",
+      "title": "GIÀY NIKE SB ALLEYOOP NAM - TRẮNG",
+      "price": 1890000,
+      "size": [
+        39,
+        40,
+        41
+      ],
+      "description": "Giày Nike SB Alleyoop là dòng giày sneaker có thiết kế đơn giản nhưng đẹp mắt, được rất nhiều người yêu thích. Một mẫu giày bạn có thể tự tin sử dụng trong mọi hoàn cảnh mà không sợ lỗi mốt.Phần upper của giày được làm từ chất liệu da lộn cao cấp kết hợp với vải Canvas chắc chắn chịu va chạm mài mòn tốt, đế giày làm bằng cao su với công nghệ độc quyền của Nike siêu bền.Giày Nike SB Alleyoop tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện. ",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/nike/nk012/giay-nikesb-alleyoop-nam-trang-01-800x800.jpg"
+    },
+    {
+      "id": 4,
+      "producer": "nike",
+      "title": "GIÀY NIKE AIR MAX AP NAM - ĐEN XANH LÁ",
+      "price": 2590000,
+      "size": [
+        39,
+        42,
+        43
+      ],
+      "description": "Giày Nike Air Max AP là mẫu giày với thiết kế vô cùng thời trang của Nike với sự kết hợp hài hòa giữa quá khứ và hiện đại. Phần đế giữa của Nike Air Max AP được thiết kế rất hợp lý mềm mại với công nghệ tiên tiến nhất của Nike.Chắc chắn đây là mẫu giày mà bất cứ fan Sneaker không thể bỏ qua.Giày Nike Air Max AP  tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/nike/nk012/giay-nike-air-max-ap-nam-den-xanh-la-01-800x800.jpg"
+    },
+    {
+      "id": 5,
+      "producer": "nike",
+      "title": "GIÀY NIKE COURT VISION LOW NAM - TRẮNG XANH",
+      "price": 1990000,
+      "size": [
+        39,
+        40,
+        43
+      ],
+      "description": "Giày Nike Court Vision Low là mẫu giày với thiết kế lấy cảm hứng từ thập niên 80 với những nét cổ điển mang phong cách đường phố đặc trưng.Với chất liệu da cao cấp và đến cao su nguyên chất khiến đôi giày bền bỉ với thời gian.Giày Nike Court Vision Low tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/nike/nk011/giay-nike-court-vision-low-nam-trang-xanh-01-800x800.jpg"
+    },
+    {
+      "id": 6,
+      "producer": "nike",
+      "title": "GIÀY NIKE AIR MAX SC NAM - TRẮNG XANH LÁ",
+      "price": 2090000,
+      "size": [
+        40,
+        41,
+        43
+      ],
+      "description": "Giày Nike Air Max SC mang nét huyền thoại của Nike, với bộ đệm Air Max trứ danh đây là mẫu giày có thể kết hợp với bất cứ trang phục nào mà bạn vẫn hoàn toàn tự tin trong mọi hoàn cảnh.Giày Nike Air Max SC tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/nike/nk011/giay-nike-air-max-sc-nam-trang-xanh-la-01-800x800.jpg"
+    },
+    {
+      "id": 7,
+      "producer": "nike",
+      "title": "GIÀY NIKE AIR MAX EXCEE NAM - TRẮNG NÂU",
+      "price": 2590000,
+      "size": [
+        39,
+        40,
+        42
+      ],
+      "description": "Giày Nike Air Max Excee mẫu giày thời trang năng động, trẻ trung Air Max Excee đã cập bến tại Myshoes.vn. Đây hứa hẹn sẽ là một mẫu giày chất chơi mà bạn không thể bỏ qua.Giày Nike Air Max Excee tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/nike/nk011/giay-nike-air-max-excee-nam-trang-nau-01-800x800.jpg"
+    },
+    {
+      "id": 8,
+      "producer": "nike",
+      "title": "GIÀY NIKE REACT TERRA KIGER 9 NAM - ĐEN",
+      "price": 1790000,
+      "size": [
+        40,
+        41,
+        42
+      ],
+      "description": "Giày Nike React Terra Kiger 9 là một trong những mẫu giày trail tốt nhất năm 2023 vừa được ra mắt với thiết kế thật sự đẹp và công nghệ đỉnh cao của Nike. Đây chắc chắn là lựa chọn tuyệt vời cho các bạn yêu cung đường địa hình phức tạp.Nike React Terra Kiger 9 với phần upper chất liệu mềm nhẹ và thoáng. Phần đế giữa công nghệ react full length cho độ êm và khả năng hỗ trợ lực trên toàn bộ bàn chân. Đế ngoài chất liệu cao su cao cấp chịu mài mòn cực tốt, giúp bạn có thể chinh phục mọi địa hình phức tạp nhất.Giày Nike React Terra Kiger 9 được Myshoes.vn nhập khẩu chính hãng, full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/nike/nk12/giay-nike-react-terra-kiger-9-nam-den-01-800x800.jpg"
+    },
+    {
+      "id": 9,
+      "producer": "nike",
+      "title": "GIÀY NIKE PRECISION 5 NAM - XÁM",
+      "price": 1890000,
+      "size": [
+        39,
+        41,
+        42
+      ],
+      "description": "Giày Nike Precision 5 một mẫu giày sneaker Nike làm bằng chất liệu cao cấp và công nghệ đỉnh cao sẽ là một lựa chọn tuyệt vời của các tín đồ sneaker.Giày Nike Precision 5  tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/nike/nk11/giay-nike-precision-5-nam-xam-01-800x800.jpg"
+    },
+    {
+      "id": 10,
+      "producer": "nike",
+      "title": "GIÀY NIKE AIR JORDAN 1 MID SE NAM - NÂU TRẮNG",
+      "price": 3890000,
+      "size": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "description": "Giày Nike Air Jordan 1 Mid SE có lẽ là một trong những dòng giày sneaker nổi tiếng nhất của thương hiệu Jordan, một mẫu giày mà mỗi khi xuất hiện luôn tạo ra cơn sốt trên toàn cầu, một mẫu giày huyện thoại của biết bao nhiêu thế hệ.Với chất liệu cao cấp, kết hợp tinh tế giữa da, canvas, cao su, Nike Air Jordan 1 Mid SE là một siêu phẩm đỉnh cao của các tín đồ sneaker.Giày Nike Air Jordan 1 Mid SE tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/nike/nk3/giay-nike-air-jordan-1-mid-se-nam-trang-nau-01-800x800.jpg"
+    },
+    {
+      "id": 11,
+      "producer": "adidas",
+      "title": "GIÀY ADIDAS DURAMO SPEED NAM - XANH NAVY",
+      "price": 1890000,
+      "size": [
+        39,
+        40,
+        41,
+        43
+      ],
+      "description": "Giày adidas Duramo Speed là mẫu giày thể thao vừa ra mắt của adidas có thiết kế đẹp, công nghệ cao phù hợp cho tất cả mọi người. Chắc chắn adidas Duramo Speed sẽ được rất nhiều người yêu thích và sử dụng.Giày adidas Duramo Speed có phần upper được làm từ vải mesh cải tiến, nhẹ và thoáng khí. Phần đế giữa công ghệ LIGHTSTRIKE Full length giúp đôi giày êm và hiệu suất cao hơn. Đế ngoài chất liệu cao su cao cấp bền và chịu mài mòn tốt. Ngoài ra, adidas Duramo Speed xứng đáng là sự lựa chọn tuyệt vời bởi mức giá hợp lý.Giày adidas Duramo Speed tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/adidas/ad5/giay-adidas-duramo-speed-nam-xanh-navy-01-800x800.jpg"
+    },
+    {
+      "id": 12,
+      "producer": "adidas",
+      "title": "GIÀY ADIDAS ADVANCOURT BASE NAM - TRẮNG",
+      "price": 1390000,
+      "size": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "description": "Giày adidas Advancourt Base được thừa hưởng lối thiết kế của đàn anh Giày adidas Advantage song vẫn có thêm nhiều điểm mới cải thiện. Với thiết kế đơn giản nhưng lại vô cùng thanh lịch.Phần Upper của giày được các nhà thiết kế của Adidas sử dụng bằng da bạn tăng thêm độ lịch lãm khi mang. Với các đường kim mũi chỉ hoàn hảo đến từng chi tiết giúp bạn tự tin sải bước. Đây quả thật là một lựa chọn mà các phải mạnh không nên bỏ lỡ. Giày adidas Advancourt Base chính hãng tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/adidas/adi4/giay-adidas-advantage-base-nam-nu-trang-den-01-800x800.jpg"
+    },
+    {
+      "id": 13,
+      "producer": "adidas",
+      "title": "GIÀY ADIDAS GRAND COURT BASE 2.0 NAM - TRẮNG ĐEN",
+      "price": 1590000,
+      "size": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "description": "Giày adidas Grand Court Base 2.0 phiên bản nâng cấp rất được ưu chuộng của dòng Grand Court Base .Với những cải tiến mới khiến cho mẫu giày này bền đẹp và năng động hơn khá nhiều.Phần upper được làm từ da cao cấp, phần đế làm từ cao su tự nhiên cực kỳ bền. Giày adidas Grand Court Base 2.0 chắc chắn sẽ là một mẫu giày thời trang không thể nào bỏ qua được trong năm nay.Giày adidas Grand Court Base 2.0 tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/adidas/13.9.1/giay-adidas-grand-court-base-2-nam-trang-den-01-800x800.jpg"
+    },
+    {
+      "id": 14,
+      "producer": "adidas",
+      "title": "GIÀY ADIDAS VULC RAID3R NAM - ĐEN TRẮNG",
+      "price": 1590000,
+      "size": [
+        39,
+        41,
+        43
+      ],
+      "description": "Giày Adidas Vulc Raid3r có thiết kế cổ điển dạng slip on thuận tiện cho việc đi lại, chất liệu cao cấp, có thể sử dụng phù hợp trong mọi hoàn cảnh.Chất liệu sản xuất mẫu giày Adidas Vulc Raid3r đều sử dụng vật liệu bền vững thân thiện với môi trường.Giày Adidas Vulc Raid3r tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/adidas/ad6/giay-adidas-vulc-raid3r-nam-den-01-800x800.jpg"
+    },
+    {
+      "id": 15,
+      "producer": "adidas",
+      "title": "GIÀY ADIDAS RUNFALCON 3.0 NAM - TRẮNG ĐEN",
+      "price": 1590000,
+      "size": [
+        39,
+        41,
+        42,
+        43
+      ],
+      "description": "Giày Adidas RunFalcon 3.0 là mẫu giày thể thao mới nhất của adidas. Với thiết kế trẻ trung, khỏe khoắn, ôm sát bàn chân. Đế giày cloud siêu nhẹ và êm ái giúp bạn di chuyển cả ngày mà không mệt mỏi.Ngoài ra, Adidas RunFalcon 3.0 lại có mức giá rất hợp lý dành cho tất cả mọi người.Giày Adidas RunFalcon 3.0 tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/adidas/ad6/giay-adidas-runfalcon-3-nam-trang-den-01-800x800.jpg"
+    },
+    {
+      "id": 16,
+      "producer": "adidas",
+      "title": "GIÀY ADIDAS TERREX UNITY LEA LOW NAM - ĐEN",
+      "price": 2190000,
+      "size": [
+        39,
+        40,
+        41,
+        43
+      ],
+      "description": "Giày adidas Terrex Unity Lea Low một mẫu giày dã ngoại danh cho những người thích chinh phục những con đường đồi núi, cheo leo, hiểm trở.Giày adidas Terrex Unity Lea Low với thiết kế đặc trưng của một đôi giày dã ngoại. Phần Upper chất liệu da và vải cao cấp, đế giày vô cùng bền chắn nhưng vẫn êm ái thoải mái, đế ngoài rãnh sâu bám đường cực tốt.Giày adidas Terrex Unity Lea Low tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/adidas/ad5/giay-adidas-terrex-unity-lea-low-nam-den-01-800x800.jpg"
+    },
+    {
+      "id": 17,
+      "producer": "adidas",
+      "title": "GIÀY ADIDAS GALAXY START NAM - ĐEN TRẮNG",
+      "price": 1890000,
+      "size": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "description": "Giày adidas Galaxy Star có thiết kế thể thao khỏe khoắn, đây là mẫu giày đa dụng cho mọi hoạt động hàng ngày. Adidas Galaxy Star có nhiều cải tiến so với adidas Galaxy 6 giúp đôi giày ngày càng hoàn hảo.Công nghệ đế CloudFoam của Adidas chưa bao giờ làm Fan hâm mộ của họ thất vọng. Với cảm giác trải nghiệm giống như đi trên ''Mây'' đấy là những gì được người dùng chia sẻ lại. Form dáng thiết kế trẻ trung, khỏe khoắn nên đây sẽ là mẫu giày không thể thiếu cho những hoạt động vui chơi, thể thao.Giày adidas Galaxy Star tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/adidas/ad6/giay-adidas-galaxy-star-nam-den-trang-01-800x800.jpg"
+    },
+    {
+      "id": 18,
+      "producer": "adidas",
+      "title": "GIÀY ADIDAS SOLARGLIDE 5 NAM - VÀNG CAM",
+      "price": 2490000,
+      "size": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "description": "Giày adidas Solarglide 5 là mẫu giày thể thao đa dụng thường ngày với khả năng hoàn trả năng lượng tuyệt vời. Thiết kế đẹp đầy năng động giúp cho adidas Solarglide 5 chiếm được cảm tình của bất cứ ai khi nhìn thấy nó.Giày adidas Solarglide 5 có phần upper được làm từ loại sợi hiệu năng cao có chứa tối thiểu 50% chất liệu Parley Ocean Plastic. Phần đế giữa công nghệ Boost trứ danh với nhiều cải tiến mới mang đến cho người sử dụng cảm giác êm ái đàn hồi hơn bao giờ hết. Phần đế ngoài với hệ thống adidas LEP 2.0 cho bạn sự cân bằng ổn định và thoải mái khi di chuyển.Đây chắc chắn là một mẫu giày thể thao hàng ngày tuyệt vời mà adidas muốn mang đến cho bạn trong năm nay.Giày adidas Solarglide 5 được Myshoes.vn nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/adidas/adi2/giay-adidas-solar-glide-5-nam-vang-cam-01-800x800.jpg"
+    },
+    {
+      "id": 19,
+      "producer": "adidas",
+      "title": "GIÀY ADIDAS SUPERNOVA 2 NAM - TRẮNG ĐEN",
+      "price": 2690000,
+      "size": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "description": "Giày adidas Supernova 2 là mẫu giày thể thao có thiết kế cực đẹp kết hợp với công nghệ đỉnh cao của adidas, adidas Supernova 2 mang đến cảm giác vô cùng thoải mái cho người sử dụng.Giày adidas Supernova 2 có phần upper được làm từ chất liệu mesh thoáng khí, phần đế giữa kết hợp 2 công nghệ Bounce và Boost trứ danh mang đến cho người sử dụng cảm giác êm ái dễ chịu khó tìm thấy ở sản phẩm thông thường. Bạn có thể sử dụng đôi giày này để đi cả ngày hoặc chạy bộ quãng đường rất dài mà không cảm thấy đau chân hay khó chịu gì cả.Đây chắc chắn là một mẫu giày thể thao tuyệt vời mà adidas muốn mang đến cho bạn trong năm nay.Giày adidas Supernova 2 được Myshoes.vn nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/adidas/adi1/giay-adidas-supernova-2-nam-trang-01-800x800.jpg"
+    },
+    {
+      "id": 20,
+      "producer": "adidas",
+      "title": "GIÀY ADIDAS DURAMO SL 2.0 NAM - TRẮNG ĐEN",
+      "price": 1590000,
+      "size": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "description": "Giày adidas Duramo SL 2.0 là phiên bản nâng cấp của mẫu adidas Duramo SL được rất nhiều người yêu thích.Với công nghệ đế LightMotion giúp bạn luôn di chuyển thật thoải mái để nâng cao sức khỏe.Với adidas Duramo SL 2.0 bạn có thể sử dụng trong mọi hoạt động hàng ngày từ chạy bộ, tập gym, đi chơi, đi làm đều rất tiện lợi. Đặc biệt với mức giá vô cùng hợp lý, đây là mẫu giày adidas cực HOT trong năm nay.Giày adidas Duramo SL 2.0 được Myshoes.vn nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/adidas/123/giay-adidas-duramo-sl-2-nam-trang-den-01-800x800.jpg"
+    },
+    {
+      "id": 21,
+      "producer": "puma",
+      "title": "GIÀY PUMA AVIATOR PROFOAM SKY NAM - ĐEN TRẮNG",
+      "price": 1590000,
+      "size": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "description": "Giày Puma Aviator ProFoam Sky có thiết kế đặc trưng của một mẫu giày thể thao chuyên nghiệp, phần upper chất liệu mesh thoáng khí, phần đế giữa công nghệ Eva siêu nhẹ và êm đàn hồi rất tốt. Puma Aviator ProFoam Sky sẽ giúp bạn chinh phục các chặng đường thật đơn giản nhẹ nhàng.Giày Puma Aviator ProFoam Sky tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/puma/puma-Aviator-ProFoam-Sky-nam-den-trang-01-800x800.jpg"
+    },
+    {
+      "id": 22,
+      "producer": "puma",
+      "title": "GIÀY PUMA TAPER NAM - TRẮNG",
+      "price": 1290000,
+      "size": [
+        39,
+        40,
+        41,
+        43
+      ],
+      "description": "Giày Puma Taper có thiết kế rất đẹp cùng với những công nghệ cao cấp của Puma. Với trọng lượng rất nhẹ và bộ đế cực kỳ êm ái Puma Taper mang đến cho người đi cảm giác rất linh hoạt và năng động.Giày Puma Taper tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/puma/giay-puma-taper-nam-trang-01-800x800.jpg"
+    },
+    {
+      "id": 23,
+      "producer": "puma",
+      "title": "GIÀY PUMA SMASH CAT PERF FS SL NAM - TRẮNG GOLD",
+      "price": 1090000,
+      "size": [
+        40,
+        41,
+        43
+      ],
+      "description": "Giày Puma Smash Cat Perf FS SL mẫu giày có thiết kế cổ điển mà tinh tế. Chất liệu da cao cấp và đế cao su bền bỉ chắc chắn sẽ làm hài lòng những khách hàng khó tính nhất. Bạn sẽ luôn yên tâm rằng nó không bao giờ bị lỗi mốt.Giày Puma Smash Cat Perf FS SL tại Myshoes.vn được nhập khẩu chính hãng Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/puma/19.12/giay-puma-smash-cat-perf-fs-sl-nam-nu-trang-gold-01-800x800.jpg"
+    },
+    {
+      "id": 24,
+      "producer": "puma",
+      "title": "GIÀY PUMA TAPER NAM - NAVY TRẮNG",
+      "price": 1290000,
+      "size": [
+        39,
+        41,
+        42,
+        43
+      ],
+      "description": "Giày Puma Taper có thiết kế rất đẹp cùng với những công nghệ cao cấp của Puma. Với trọng lượng rất nhẹ và bộ đế cực kỳ êm ái Puma Taper mang đến cho người đi cảm giác rất linh hoạt và năng động.Giày Puma Taper tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/puma/4.11/giay-puma-taper-nam-xanh-navy-01-800x800.jpg"
+    },
+    {
+      "id": 25,
+      "producer": "puma",
+      "title": "GIÀY PUMA SMASH CAT L NAM - TRẮNG XANH",
+      "price": 1690000,
+      "size": [
+        39,
+        40,
+        42,
+        43
+      ],
+      "description": "Giày Puma Smash Cat L mẫu giày có thiết kế đơn giản mà đẹp mắt. Logo hình con báo đặc trưng của Puma được thêu tỉ mỉ trên thân giày tạo nét nổi bật khó cưỡng lại.Chất liệu da cao cấp và đế cao su bền bỉ chắc chắn sẽ làm hài lòng những khách hàng khó tính nhất. Bạn sẽ luôn yên tâm rằng nó không bao giờ bị lỗi mốt.Giày Puma Smash Cat L tại Myshoes.vn được nhập khẩu chính hãng Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/puma/121/giay-puma-smash-cat-l-nam-nu-trang-xanh-01-800x800.jpg"
+    },
+    {
+      "id": 26,
+      "producer": "puma",
+      "title": "Giày Puma X Ray Trainers NAM - TRẮNG",
+      "price": 1590000,
+      "size": [
+        39,
+        40,
+        42
+      ],
+      "description": "Giày Puma X Ray Trainers là một trong mẫu giày thể thao có có thiết kế đơn giản mà rất tinh tế. Một mẫu giày mà bạn có thế sử dụng trong mọi hoạt động hàng ngày.Giày Puma X Ray Trainers với phần upper được trang bị vải mesh rất thoáng khí, phần đế giữa Softride cao cấp của Puma cho độ êm vượt trội.Giày Puma X Ray Trainers tại Myshoes.vn được nhập khẩu chính hãng Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/puma/121/giay-puma-x-ray-trainers-nam-trang-01-800x800.jpg"
+    },
+    {
+      "id": 27,
+      "producer": "puma",
+      "title": "GIÀY PUMA NRGY RUPTURE NAM - ĐEN FULL",
+      "price": 890000,
+      "size": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "description": "Giày Puma NRGY Rupture là một trong mẫu giày thể thao có có thiết kế đơn giản mà rất tinh tế. Một mẫu giày mà bạn có thế sử dụng trong mọi hoạt động hàng ngày.Giày Puma NRGY Rupture với phần upper được trang bị vải mesh rất thoáng khí, phần đế giữa SoftFoam cao cấp của Puma cho độ êm vượt trội.Giày Puma NRGY Rupture tại Myshoes.vn được nhập khẩu chính hãng Full box, đầy đủ phụ kiện. ",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/puma/17.5/giay-Puma-NRGY-Rupture-Nam-den-full-01-800x800.jpg"
+    },
+    {
+      "id": 28,
+      "producer": "puma",
+      "title": "GIÀY PUMA CAVEN NAM - ĐEN TRẮNG",
+      "price": 1390000,
+      "size": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "description": "Giày Puma Caven mẫu giày cổ điển được phát triển từ những năm 1980 của Puma. Chất liệu da cao cấp và đế cao su bền bỉ chắc chắn sẽ làm hài lòng những khách hàng khó tính nhất. Bạn sẽ luôn yên tâm rằng nó không bao giờ bị lỗi mốt.Giày Puma Caven chính hãng tại Myshoes.vn được nhập khẩu chính hãng qua đường hàng không. Full box, đầy đủ phụ kiện. ",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/puma/2.3/giay-puma-caven-nam-den-trang-01-800x800.jpg"
+    },
+    {
+      "id": 29,
+      "producer": "puma",
+      "title": "GIÀY PUMA COURT PURE NAM - ĐEN TRẮNG",
+      "price": 1490000,
+      "size": [
+        40,
+        41,
+        42
+      ],
+      "description": "Giày Puma Court Pure mẫu giày có thiết kế cổ điển mà tinh tế. Chất liệu da cao cấp và đế cao su bền bỉ chắc chắn sẽ làm hài lòng những khách hàng khó tính nhất. Bạn sẽ luôn yên tâm rằng nó không bao giờ bị lỗi mốt.Giày Puma Court Pure tại Myshoes.vn được nhập khẩu chính hãng Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/puma/28.7/giay-puma-court-pure-nam-den-trang-01-800x800.jpg"
+    },
+    {
+      "id": 30,
+      "producer": "puma",
+      "title": "GIÀY PUMA COURT PURE NAM - TRẮNG",
+      "price": 1490000,
+      "size": [
+        40,
+        41,
+        43
+      ],
+      "description": "Giày Puma Court Pure mẫu giày có thiết kế cổ điển mà tinh tế. Chất liệu da cao cấp và đế cao su bền bỉ chắc chắn sẽ làm hài lòng những khách hàng khó tính nhất. Bạn sẽ luôn yên tâm rằng nó không bao giờ bị lỗi mốt.Giày Puma Court Pure tại Myshoes.vn được nhập khẩu chính hãng Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/puma/28.7/giay-puma-court-pure-nam-trang-01-800x800.jpg"
+    },
+    {
+      "id": 31,
+      "producer": "balance",
+      "title": "GIÀY NEW BALANCE 373 NAM - VÀNG NÂU",
+      "price": 1590000,
+      "size": [
+        39,
+        40,
+        41,
+        43
+      ],
+      "description": "Giày New Balance 373 là mẫu giày thời trang được thiết kế với phong cách cổ điển đặc trưng của thương hiệu trứ danh đến từ Mỹ. Đây là một dòng sản phẩm không bao giờ lỗi mốt và luôn được các tín đồ thời trang săn đón.New Balance 373 có phần upper được làm từ chất liệu mesh kết hợp với da lộn cao cấp, phần đế giày với bộ đệm cực kỳ êm ái giúp bạn có thể di chuyển cả ngày dài mà không gặp bất cứ sự khó chịu nào cả. New Balance 373 có thể sử dụng trong mọi hoạt động hàng ngày.Giày New Balance 373 được Myshoes.vn nhập khẩu chính hãng, full box.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/newbalance/17.5/giay-new-balance-373-nam-vang-nau-01-800x800.jpg"
+    },
+    {
+      "id": 32,
+      "producer": "balance",
+      "title": "GIÀY NEW BALANCE VIAZA NAM - XANH LAM",
+      "price": 1290000,
+      "size": [
+        40,
+        41,
+        42
+      ],
+      "description": "Giày New Balance Viaza mẫu giày thể thao được thiết kế rất đẹp, với công nghệ đế FRESH FOAM độc quyền của New Balance giúp cho đôi giày trở lên cực kỳ êm và nhẹ nhàng khi di chuyển.New Balance Viaza có phần upper được làm từ chất liệu vải mesh thoáng khí giúp bạn vận động cả ngày dài. Đây cũng là mẫu giày chạy bộ, tập gym, chơi thể thao rất tốt.Giày New Balance Viaza được Myshoes.vn nhập khẩu chính hãng, full box.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/newbalance/16.5/giay-new-balance-viaza-nam-xanh-lam-01-800x800.jpg"
+    },
+    {
+      "id": 33,
+      "producer": "balance",
+      "title": "GIÀY NEW BALANCE M FLASH NAM - ĐEN ĐỎ",
+      "price": 1290000,
+      "size": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "description": "Giày New Balance M Flash mẫu giày thể thao được thiết kế rất đẹp, chất liệu cực nhẹ và êm giúp bạn vận động đi lại cả ngày mà không mỏi mệt.New Balance M Flash có phần upper được làm từ chất liệu vải mesh thoáng khí, đế giữa với công nghệ DYNASOFT độc quyền của New Blance cho độ êm và nhẹ tuyệt vời. Đây là mẫu giày không thể thiếu trong tủ giày của bạn.Giày New Balance M Flash được Myshoes.vn nhập khẩu chính hãng, full box.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/newbalance/16.5/giay-New-Balance-M-Flash-nam-den-do-01-800x800.jpg"
+    },
+    {
+      "id": 34,
+      "producer": "balance",
+      "title": "GIÀY NEW BALANCE M FLASH NAM - ĐEN FULL",
+      "price": 1290000,
+      "size": [
+        39,
+        40,
+        42
+      ],
+      "description": "Giày New Balance M Flash mẫu giày thể thao được thiết kế rất đẹp, chất liệu cực nhẹ và êm giúp bạn vận động đi lại cả ngày mà không mỏi mệt.New Balance M Flash có phần upper được làm từ chất liệu vải mesh thoáng khí, đế giữa với công nghệ DYNASOFT độc quyền của New Blance cho độ êm và nhẹ tuyệt vời. Đây là mẫu giày không thể thiếu trong tủ giày của bạn.Giày New Balance M Flash được Myshoes.vn nhập khẩu chính hãng, full box.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/newbalance/6.5/giay-New-Balance-M-Flash-nam-den-full-01-800x800.jpg"
+    },
+    {
+      "id": 35,
+      "producer": "balance",
+      "title": "GIÀY NEW BALANCE M411 NAM - ĐEN TRẮNG",
+      "price": 1890000,
+      "size": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "description": "Giày New Balance M411 mẫu giày thể thao được thiết kế đơn giản nhưng rất đẹp, chất liệu cực nhẹ và êm giúp bạn di chuyển cả ngày mà không mỏi mệt. Ngoài ra New Balance M411 có mức giá cực kỳ hợp lý rất đáng để bạn lựa chọn. Giày New Balance M411 có phần upper được làm từ chất liệu vải mesh thoáng khí, đế giữa với công nghệ độc quyền của New Blance cực êm và nhẹ, đây là mẫu giày có thể sử dụng mọi hoạt động hàng ngày. Giày New Balance M411 được Myshoes.vn nhập khẩu chính hãng, full box.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/newbalance/6.5/giay-new-balance-m411-nam-xanh-den-trang-01-800x800.jpg"
+    },
+    {
+      "id": 36,
+      "producer": "lacoste",
+      "title": "GIÀY LACOSTE SPIN ULTRA GTX NAM - ĐEN",
+      "price": 1990000,
+      "size": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "description": "Giày Lacoste Spin Ultra GTX là mẫu giày thể thao hiệu suất cao cấp nhất của Lacoste, với những công nghệ đỉnh cao hợp tác với những hãng vật liệu nổi tiếng nhất thế giới, thể hiện tinh thần đổi mới trong thiết kế của Lacoste.Phần Upper được sản xuất bằng công nghệ Gore-Tex trứ danh rất nhẹ, thoáng khi và chống thấm nước. Đế giữa với công nghệ Pebax khiến đôi đàn hồi tốt nhưng cũng vô cùng vững chắc cân bằng. Đế ngoài Lacoste hợp tác với hãng cao su nối tiếng Goodyear cho độ bền và bám đường hoàn hảo, giúp bảo vệ bạn trước mọi điều kiện thời tiết. Lacoste Spin Ultra GTX thật sự là một mẫu giày thể thao tuyệt vời nhất của Lacoste.Giày Lacoste Spin Ultra GTX được Myshoes.vn nhập khẩu chính hãng, full box.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/lacoste/022/giay-lacoste-run-spin-ultra-gtx-nam-den-01-800x800.jpg"
+    },
+    {
+      "id": 37,
+      "producer": "lacoste",
+      "title": "GIÀY LACOSTE L001 321 NAM - TRẮNG XÁM",
+      "price": 2790000,
+      "size": [
+        39,
+        40,
+        41,
+        43
+      ],
+      "description": "Giày Lacoste L001 321 là một trong những mẫu giày HOT nhất của Lacoste hiện nay. Lacoste L001 321 có thiết kế cổ điển truyền thống của Lacoste nhưng lại có hơi hướng hiện đại rất hấp dẫn.Giày Lacoste L001 321 được làm từ chất liệu da cực kỳ cao cấp của Lacoste, phần đế giày chất liệu cao su bền đẹp với thời gian. Giày Lacoste L001 321 tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/lacoste/022/giay-lacoste-l001-321-trang-xam-01-800x800.jpg"
+    },
+    {
+      "id": 38,
+      "producer": "lacoste",
+      "title": "GIÀY LACOSTE GRIPSHOT BL CNV NAM - TRẮNG",
+      "price": 1790000,
+      "size": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "description": "Giày Lacoste Gripshot BL CNV có thiết kế đẹp các chi tiết vô cùng tỉ mỉ sắc sảo, cùng với chất liệu vải canvas cao cấp của Lacoste. Lacoste Gripshot BL CNV chắc chắn là mẫu giày thời trang không thể bỏ qua trong năm nay.Giày Lacoste Gripshot BL CNV tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/lacoste/022/giay-lacoste-gripshot-bl-canvas-nam-trang-01-800x800.jpg"
+    },
+    {
+      "id": 39,
+      "producer": "lacoste",
+      "title": "GIÀY LACOSTE BAYLISS 119 NAM - XANH NAVY",
+      "price": 2490000,
+      "size": [
+        39,
+        40,
+        41,
+        43
+      ],
+      "description": "Giày Lacoste Bayliss 119 được thiết kế với phong cách cổ điển sang trọng đặc trưng của thương hiệu Lacoste. Giày Lacoste Bayliss 119 được làm từ da cao cấp, mềm và có độ bền cao, không nhăn không thấm nước.Các đường chỉ khâu thẳng hàng rất tinh tế và chắc chắn. Phần đế giày được làm từ cao su lưu hóa được hãng Lacoste nghiên cứu và thử nghiệm mang lại độ bền và độ êm tuyệt đối cho đôi chân của bạn. Lacoste Bayliss 119 là lựa chọn tuyệt vời cho bạn phong cách quý ông lịch lãm mà không kém phần trẻ trung, cá tính.Giày Lacoste Bayliss 119 tại Myshoes.vn được nhập khẩu chính hãng qua đường hàng không. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/lacoste/2.7/giay-lacoste-bayliss-119-xanh-navy-01-800x800.jpg"
+    },
+    {
+      "id": 40,
+      "producer": "lacoste",
+      "title": "GIÀY LACOSTE POWERCOURT 222 5 NAM - ĐEN TRẮNG",
+      "price": 2590000,
+      "size": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "description": "Giày Lacoste PowerCourt 222 5 được thiết kế với phong cách cổ điển sang trọng đặc trưng của thương hiệu Lacoste. Giày có upper bằng da cao cấp, có độ bền cao, được dập chìm họa tiết rất tinh tế.Các đường chỉ khâu thẳng hàng chỉnh chu và chắc chắn. Phần đế giày được làm từ cao su lưu hóa được hãng Lacoste nghiên cứu và thử nghiệm, bền bỉ và êm ái với đôi chân của bạn.Giày Lacoste PowerCourt 222 5 tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/lacoste/086/giay-lacoste-powercourt-222-5-nam-den-01-800x800.jpg"
+    },
+    {
+      "id": 41,
+      "producer": "lacoste",
+      "title": "GIÀY LACOSTE POWERCOURT 222 7 NAM - TRẮNG XANH",
+      "price": 2590000,
+      "size": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "description": "Giày Lacoste PowerCourt 222 7 được thiết kế với phong cách cổ điển sang trọng đặc trưng của thương hiệu Lacoste. Giày có upper bằng da cao cấp, có độ bền cao, logo được thêu cách điệu cực kỳ độc đáo.Các đường chỉ khâu thẳng hàng chỉnh chu và chắc chắn. Phần đế giày được làm từ cao su lưu hóa được hãng Lacoste nghiên cứu và thử nghiệm, bền bỉ và êm ái với đôi chân của bạn. Giày Lacoste PowerCourt 222 7 tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/lacoste/086/giay-lacoste-powercourt-222-7-nam-trang-01-800x800.jpg"
+    },
+    {
+      "id": 42,
+      "producer": "lacoste",
+      "title": "GIÀY LACOSTE MENERVA SPORT 722 NAM - TRẮNG ĐỎ",
+      "price": 2390000,
+      "size": [
+        39,
+        40,
+        42,
+        43
+      ],
+      "description": "Giày Lacoste Menerva Sport 722 được thiết kế với phong cách cổ điển sang trọng đặc trưng của thương hiệu đến từ nước Pháp. Một mẫu giày mà anh em chúng ta có thể tự tin sải bước trong mọi hoàn cảnh.Phần upper được làm kết hợp giữa chất liệu mesh thoáng khí và da cao cấp. Phần đế giày được làm từ cao su lưu hóa được hãng Lacoste nghiên cứu và thử nghiệm mang lại độ bền và độ êm tuyệt đối cho đôi chân của bạn. Lacoste Menerva Sport 722 là lựa chọn tuyệt vời cho bạn.Giày Lacoste Menerva Sport 722 được Myshoes.vn nhập khẩu chính hãng, full box.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/lacoste/086/giay-lacoste-menerva-sport-722-nam-trang-do-01-800x800.jpg"
+    },
+    {
+      "id": 43,
+      "producer": "lacoste",
+      "title": "GIÀY LACOSTE MENERVA SPORT 121 NAM - TRẮNG XANH",
+      "price": 2590000,
+      "size": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "description": "Giày Lacoste Menerva Sport 121 được thiết kế với phong cách cổ điển sang trọng đặc trưng của thương hiệu đến từ nước Pháp. Một mẫu giày mà anh em chúng ta có thể tự tin sải bước trong mọi hoàn cảnh.Phần upper được làm kết hợp giữa chất liệu mesh thoáng khí và da cao cấp. Phần đế giày được làm từ cao su lưu hóa được hãng Lacoste nghiên cứu và thử nghiệm mang lại độ bền và độ êm tuyệt đối cho đôi chân của bạn. Lacoste Menerva Sport 722 là lựa chọn tuyệt vời cho bạn.Giày Lacoste Menerva Sport 121 được Myshoes.vn nhập khẩu chính hãng, full box.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/lacoste/086/giay-lacoste-menerva-sport-121-nam-trang-xanh-la-01.jpg-800x800.jpg"
+    },
+    {
+      "id": 44,
+      "producer": "lacoste",
+      "title": "GIÀY LACOSTE STORM 96 LO NAM - NÂU",
+      "price": 2490000,
+      "size": [
+        39,
+        40,
+        41,
+        43
+      ],
+      "description": "Giày Lacoste Storm 96 LO có thiết kế cổ điển lấy cảm hứng từ thập niên 90 với tính thẩm mỹ táo bạo và bắt kịp xu hướng. Lacoste Storm 96 LO chắc chắn là lựa chọn cho những ai yêu thích thời trang.Giày Lacoste Storm 96 LO có upper được làm từ chất liệu da kết hợp da lộn cao cấp của Lacoste, phần đế giày chất liệu cao su bền đẹp với thời gian. Giày Lacoste Storm 96 LO tại Myshoes.vn được nhập khẩu chính hãng. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/lacoste/146/giay-lacoste-storm-96-lo-nam-nau-01-800x800.jpg"
+    },
+    {
+      "id": 45,
+      "producer": "lacoste",
+      "title": "GIÀY LACOSTE BAYLISS 119 NAM - XANH NAVY",
+      "price": 2890000,
+      "size": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "description": "Giày Lacoste Bayliss 119 được thiết kế với phong cách cổ điển sang trọng đặc trưng của thương hiệu Lacoste. Giày Lacoste Bayliss 119 được làm từ da cao cấp, mềm và có độ bền cao, không nhăn không thấm nước.Các đường chỉ khâu thẳng hàng rất tinh tế và chắc chắn. Phần đế giày được làm từ cao su lưu hóa được hãng Lacoste nghiên cứu và thử nghiệm mang lại độ bền và độ êm tuyệt đối cho đôi chân của bạn. Lacoste Bayliss 119 là lựa chọn tuyệt vời cho bạn phong cách quý ông lịch lãm mà không kém phần trẻ trung, cá tính.Giày Lacoste Bayliss 119 tại Myshoes.vn được nhập khẩu chính hãng qua đường hàng không. Full box, đầy đủ phụ kiện.",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/lacoste/2.7/giay-lacoste-bayliss-119-xanh-navy-01-800x800.jpg"
+    },
+    {
+      "id": 46,
+      "producer": "mycare",
+      "title": "BỘ VỆ SINH GIÀY CAO CẤP MYCARE SHOE CLEANER KIT",
+      "price": 129000,
+      "size": [
+        100,
+        200,
+        300
+      ],
+      "description": "Bộ vệ sinh giày mycare Shoe Cleaner Kit gồm 2 sản phẩm bên trong: 01 chai dung dịch mycare Shoe Cleaning Gel là giải pháp làm sạch giày chuyên nghiệp đánh bay mọi vết bẩn cứng đầu nhất giúp đôi giày của bạn luôn sạch sẽ và sáng đẹp.Sản phẩm này làm từ nguyên liệu tự nhiên, an toàn cho sản phẩm và người sử dụng. 01 Bàn chải giặt giày chuyên nghiệp được làm bằng gỗ sồi nhập khẩu cao cấp, cực kỳ bền chắc. Lông bàn chải chất liệu PP mềm sử dụng an toàn với mọi loại giày mà không lo làm chày xước hay hỏng giày. Logo trên bàn trải được khắc lazer cực kỳ tinh tế.Đặc biệt, hộp đựng bộ sản phẩm này được mycare thiết kế cực kỳ đẹp mắt và chuyên nghiệp, sử dụng chất liệu carton lạnh cứng cáp, logo và tên sản phẩm được ép nhũ 3 lớp khiến sản phẩm càng trở lên sang trọng. Hộp này rất hữu ích, bạn có thể sử dụng để đựng rất nhiều đồ dùng nhỏ xinh trong nhà đó.",
+      "imageUrl": "https://myshoes.vn/image/cache/data/mycare/mycare-01-w-800x800.jpg"
+    },
+    {
+      "id": 47,
+      "producer": "mycare",
+      "title": "XỊT KHỬ MÙI GIÀY CAO CẤP NANO BẠC (AG+) MYCARE",
+      "price": 109000,
+      "size": [
+        100,
+        200,
+        300
+      ],
+      "description": "Xịt Khử Mùi Giày Cao Cấp Nano Bạc (Ag+) là một sản phẩm chăm sóc giày rất hiệu quả của thương hiệu Mycare. Giúp đôi giày của bạn luôn thơm mát, dễ chịu suốt ngày dài.Với thành phần Nano Bạc (Ag+) giúp tiêu diệt 99% vi khuẩn gây mùi khó chịu, cùng với hương thơm mát dịu sẽ mang đến sự dễ chịu cho đôi chân của bạn.Xịt khử mùi cao cấp Mycare được nghiên cứu và thử nghiệm với hàng trăm người sử dụng cho hiệu quả vượt trội so với các sản phẩm thông thường.",
+      "imageUrl": "https://myshoes.vn/image/cache/data/mycare/xit-khu-mui/xui-khu-mui-mycare-01-800x800.jpg"
+    },
+    {
+      "id": 48,
+      "producer": "mycare",
+      "title": "XỊT BỌT ION LÀM SẠCH GIÀY MYCARE FOAMING CLEANER",
+      "price": 119000,
+      "size": [
+        100,
+        200,
+        300
+      ],
+      "description": "Xịt Bọt ION Làm Sạch Giày Mycare được sản xuất với công nghệ ION tiên tiến nhất làm sạch cực nhanh và hiệu quả với mọi vết bẩn chỉ trong vài phút.Xịt bọt Mycare Foaming Cleaner an toàn với da tay, không làm ảnh hưởng đến chất liệu của sản phẩm, không làm phai màu hay bong tróc.Mycare Foaming Cleaner sử dụng hiệu quả với nhiều loại giày khác nhau như: Giày da thật, da PU, giày vải, cao su…",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/mycare/xit-bot-lam-sach-giay-mycare-foaming-cleaner-011-800x800.jpg"
+    },
+    {
+      "id": 49,
+      "producer": "mycare",
+      "title": " XỊT BỌT ION LÀM SẠCH GIÀY MYCARE + BÀN CHẢI",
+      "price": 139000,
+      "description": "Xịt Bọt ION Làm Sạch Giày Mycare được sản xuất với công nghệ ION tiên tiến nhất làm sạch cực nhanh và hiệu quả với mọi vết bẩn chỉ trong vài phút.Xịt bọt Mycare Foaming Cleaner an toàn với da tay, không làm ảnh hưởng đến chất liệu của sản phẩm, không làm phai màu hay bong tróc.Mycare Foaming Cleaner sử dụng hiệu quả với nhiều loại giày khác nhau như: Giày da thật, da PU, giày vải, cao su…",
+      "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/mycare/combo-xit-bot-mycare-01-800x800.jpg"
+    }
+  ],
+  "oders": [
+    {
+      "name": "LÊ MINH ĐỨC",
+      "address": "22 quang thanh 2",
+      "numberphone": "0396957819",
+      "carts": [
+        {
+          "id": 32,
+          "producer": "balance",
+          "title": "GIÀY NEW BALANCE VIAZA NAM - XANH LAM",
+          "price": 1290000,
+          "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/newbalance/16.5/giay-new-balance-viaza-nam-xanh-lam-01-800x800.jpg",
+          "size": 41,
+          "quantity": 2,
+          "total": 2580000
+        }
+      ],
+      "idUser": 1,
+      "total": 2580000,
+      "createAt": "13/08/2023",
+      "id": 1
+    },
+    {
+      "name": "le minh duc",
+      "address": "22 quang thanh 2",
+      "numberphone": "0396957819",
+      "carts": [
+        {
+          "id": 48,
+          "producer": "mycare",
+          "title": "XỊT BỌT ION LÀM SẠCH GIÀY MYCARE FOAMING CLEANER",
+          "price": 119000,
+          "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/mycare/xit-bot-lam-sach-giay-mycare-foaming-cleaner-011-800x800.jpg",
+          "size": 200,
+          "quantity": 6,
+          "total": 714000
+        },
+        {
+          "id": 11,
+          "producer": "adidas",
+          "title": "GIÀY ADIDAS DURAMO SPEED NAM - XANH NAVY",
+          "price": 1890000,
+          "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/adidas/ad5/giay-adidas-duramo-speed-nam-xanh-navy-01-800x800.jpg",
+          "size": 41,
+          "quantity": 2,
+          "total": 3780000
+        },
+        {
+          "id": 11,
+          "producer": "adidas",
+          "title": "GIÀY ADIDAS DURAMO SPEED NAM - XANH NAVY",
+          "price": 1890000,
+          "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/adidas/ad5/giay-adidas-duramo-speed-nam-xanh-navy-01-800x800.jpg",
+          "size": 40,
+          "quantity": 3,
+          "total": 5670000
+        }
+      ],
+      "idUser": 1,
+      "total": 10164000,
+      "createAt": "15/08/2023",
+      "id": 2
+    }
+  ],
+  "productComments": [
+    {
+      "rate": 3,
+      "productId": 1,
+      "email": "duc@gmail.com",
+      "fullName": "LÊ MINH ĐỨC",
+      "commentsContent": "ok",
+      "createdAt": "Sun Aug 13 2023 4:51:54 PM",
+      "id": 1
+    },
+    {
+      "rate": 4,
+      "productId": 2,
+      "email": "duc@gmail.com",
+      "fullName": "LÊ MINH ĐỨC",
+      "commentsContent": "ezz",
+      "createdAt": "Sun Aug 13 2023 4:54:04 PM",
+      "id": 2
+    },
+    {
+      "rate": 5,
+      "productId": 1,
+      "email": "duc@gmail.com",
+      "fullName": "LÊ MINH ĐỨC",
+      "commentsContent": "okeok",
+      "createdAt": "Sun Aug 13 2023 4:55:10 PM",
+      "id": 3
+    },
+    {
+      "rate": 2.5,
+      "productId": 11,
+      "email": "duc@gmail.com",
+      "fullName": "LÊ MINH ĐỨC",
+      "commentsContent": "được của ló",
+      "createdAt": "Sun Aug 13 2023 4:55:33 PM",
+      "id": 4
+    },
+    {
+      "rate": 2,
+      "productId": 1,
+      "email": "duc@gmail.com",
+      "fullName": "LÊ MINH ĐỨC",
+      "commentsContent": "good",
+      "createdAt": "Sun Aug 13 2023 4:56:40 PM",
+      "id": 5
+    },
+    {
+      "rate": 4,
+      "productId": 1,
+      "email": "duc@gmail.com",
+      "fullName": "LÊ MINH ĐỨC",
+      "commentsContent": "ok",
+      "createdAt": "Sun Aug 13 2023 5:44:11 PM",
+      "id": 6
+    },
+    {
+      "rate": 4,
+      "productId": 46,
+      "email": "ducaaa@gmail.com",
+      "fullName": "le minh duc",
+      "commentsContent": "good",
+      "createdAt": "Tue Aug 15 2023 6:20:40 PM",
+      "id": 7
+    }
+  ]
+}

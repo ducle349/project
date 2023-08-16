@@ -1,0 +1,24 @@
+.details{
+    display: flex;
+   justify-content: space-around;
+   margin-top: 30px;
+    &__img{
+      
+        height: 80vh;
+    }
+    &__content{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        
+       
+    }
+}
+.details-btn{
+    color: white;
+    margin-right: 50px;
+    height: 10vh;
+    text-align: center;
+
+}
