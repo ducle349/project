@@ -38,13 +38,12 @@ export const actLogin = createAsyncThunk(
       const filterUser = users.find((item) => {
         return item.email === username && item.password === password;
       });
-      console.log("filter", filterUser);
       if (filterUser) {
         return {
           userInfo: filterUser,
         };
         // thunkAPI.dispatch(loginSuccess(filterUser));
-      } else throw new Error("Account or password incorrect!");
+      } else throw new Error("Tài khoản hoặc mật khẩu không đúng");
     } catch (error) {
       return thunkAPI.rejectWithValue(error?.message);
     }
@@ -55,6 +54,14 @@ export const actupdateUserById = createAsyncThunk(
   async ({ id, usersUpdate }, thunkAPI) => {
     await UserAPIs.updateUserById(id, usersUpdate);
     thunkAPI.dispatch(actLogout());
+    return null;
+  }
+);
+export const actupdateInfoUserById = createAsyncThunk(
+  "users/updateInfoUserById",
+  async ({ id, usersUpdate }, thunkAPI) => {
+    await UserAPIs.updateInfoUserById(id, usersUpdate);
+    thunkAPI.dispatch(loginSuccess(usersUpdate));
     return null;
   }
 );
@@ -77,9 +84,9 @@ const userSlice = createSlice({
       state.isLoading = false;
       state.isAuth = true;
       state.userInfo = { ...action.payload };
-      message.success("Đăng nhập thành công");
       localStorage.setItem("isAuth", true);
       localStorage.setItem("userInfo", JSON.stringify(action.payload));
+      globalNavigate(ROUTES.HOME_PAGE);
     },
     actSetErrors: (state, action) => {
       state.errors = action.payload;
@@ -122,6 +129,11 @@ const userSlice = createSlice({
         "cập nhật password thành công,Hãy đăng nhập với mật khẩu mới"
       );
       globalNavigate(ROUTES.LOGIN_PAGE);
+    });
+    builder.addCase(actupdateInfoUserById.fulfilled, (state, action) => {
+      console.log("action", action.payload);
+      message.success("cập nhật thông tin thành công");
+      globalNavigate(ROUTES.HOME_PAGE);
     });
   },
 });

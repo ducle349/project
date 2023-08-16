@@ -16,6 +16,12 @@ export const UserAPIs = {
       userUpdate
     );
   },
+  updateInfoUserById: async (id, userUpdate) => {
+    return await axios.patch(
+      `${process.env.REACT_APP_BE_URL}users/${id}`,
+      userUpdate
+    );
+  },
   createUser: async (user) => {
     return await axios.post(`${process.env.REACT_APP_BE_URL}users`, user);
   },

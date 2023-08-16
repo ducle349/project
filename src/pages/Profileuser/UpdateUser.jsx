@@ -3,7 +3,7 @@ import { Controller, useForm } from "react-hook-form";
 import * as Yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useDispatch, useSelector } from "react-redux";
-import { actupdateUserById } from "../../redux/features/users/userSlice";
+import { actupdateInfoUserById } from "../../redux/features/users/userSlice";
 import { useState } from "react";
 const schema = Yup.object().shape({
   name: Yup.string().required("Please input name"),
@@ -31,10 +31,10 @@ const UpdateUser = () => {
     if (isAuth) {
       setIsValid(true);
     } else {
-      alert("Bạn chưa đăng nhập. Vui lòng đăng nhập để đổi mật khẩu");
+      alert("Bạn chưa đăng nhập. Vui lòng đăng nhập để đổi thông tin");
     }
     if (isValid) {
-      const userchangepassword = {
+      const userchangeInfo = {
         ...userInfo,
         name: values.name,
         address: values.address,
@@ -42,9 +42,9 @@ const UpdateUser = () => {
       };
 
       dispatch(
-        actupdateUserById({
+        actupdateInfoUserById({
           id: userInfo.id,
-          usersUpdate: userchangepassword,
+          usersUpdate: userchangeInfo,
         })
       );
     }
@@ -63,7 +63,7 @@ const UpdateUser = () => {
                 control={control}
                 name="name"
                 render={({ field }) => {
-                  return <Input placeholder="Mật khẩu cũ" {...field} />;
+                  return <Input placeholder="Nhập tên của bạn" {...field} />;
                 }}
               />
               {!!errors.name?.message && (
@@ -81,7 +81,9 @@ const UpdateUser = () => {
                 control={control}
                 name="address"
                 render={({ field }) => {
-                  return <Input placeholder="Mật khẩu mới" {...field} />;
+                  return (
+                    <Input placeholder="Nhập địa chỉ của bạn" {...field} />
+                  );
                 }}
               />
               {!!errors.address?.message && (
@@ -100,7 +102,10 @@ const UpdateUser = () => {
                 name="numberphone"
                 render={({ field }) => {
                   return (
-                    <Input placeholder="Nhập lại mật khẩu mới" {...field} />
+                    <Input
+                      placeholder="Nhập số điện thoại của bạn"
+                      {...field}
+                    />
                   );
                 }}
               />
