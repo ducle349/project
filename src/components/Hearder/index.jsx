@@ -43,17 +43,13 @@ const Hearder = () => {
   };
 
   const [menuActive, setMenuActive] = useState("menu");
-  // const [searchActive, setSearchActive] = useState("header-title__search");
+
   const menuToggler = () => {
     menuActive === "menu"
       ? setMenuActive("menu menu_active")
       : setMenuActive("menu");
   };
-  // const searchToggler = () => {
-  //   searchActive === "header-title__search"
-  //     ? setSearchActive("header-title__search search_active")
-  //     : setSearchActive("header-title__search");
-  // };
+
   const location = useLocation();
   const handleLogout = () => {
     dispatch(actLogout());
@@ -138,13 +134,7 @@ const Hearder = () => {
                   </Link>
                 )}
               </div>
-              {/* <div className="search-toggler">
-                <SearchOutlined
-                  style={{ fontSize: "30px", color: "white" }}
-                  onClick={searchToggler}
-                  className="search-toggler"
-                />
-              </div> */}
+
               <Link to={ROUTES.CARTS_PAGE}>
                 <div className="shoppingCart">
                   <div className="couter">{carts.length}</div>

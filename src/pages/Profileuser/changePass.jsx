@@ -5,6 +5,8 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { useDispatch, useSelector } from "react-redux";
 import { actupdateUserById } from "../../redux/features/users/userSlice";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import "./changepass.scss";
 const schema = Yup.object().shape({
   oldpassword: Yup.string().required("Please input oldrepassword"),
   newpassword: Yup.string().required("Please input newrepassword"),
@@ -55,9 +57,18 @@ const UpdatePass = () => {
   };
   return (
     <>
-      <div className="form-register">
-        <form className="input-form" onSubmit={handleSubmit(onValid)}>
-          <h2>ĐỔI MẬT KHẨU</h2>
+      <div className="form-changepass">
+        <div className="image">
+          <Link to={"/products?status=sale"}>
+            <img
+              className="image"
+              src="https://myshoes.vn/image/cache/catalog/2022/banner/slide-trai-20-300x500h.png"
+              alt="sale"
+            ></img>
+          </Link>
+        </div>
+        <form className="input-changepass" onSubmit={handleSubmit(onValid)}>
+          <h2 style={{ textAlign: "center" }}>ĐỔI MẬT KHẨU</h2>
           <div className="input-form__item">
             <label className="input-form__label" style={{ minWidth: 200 }}>
               Mật khẩu cũ
@@ -146,6 +157,15 @@ const UpdatePass = () => {
             </Button>
           </div>
         </form>
+        <div className="image">
+          <Link to={"/products?status=sale"}>
+            <img
+              className="image"
+              src="https://myshoes.vn/image/cache/catalog/2023/banner/banner-sale-side-240x390.png"
+              alt="sale"
+            ></img>
+          </Link>
+        </div>
       </div>
     </>
   );

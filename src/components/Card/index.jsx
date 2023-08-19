@@ -26,24 +26,56 @@ const Card = (props) => {
     }
     return priceString;
   };
-
+  const salePercentage =
+    props.shoe.price - (props.shoe.price * props.shoe.salePercentage) / 100;
   return (
-    <div
-      className="col-xl-3 col-lg-4 col-md-6 col-sm-12 product-item"
-      onClick={handleRedirectToDtailPage}
-    >
-      <div className="card">
+    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12 product-item">
+      <div className="card" onClick={handleRedirectToDtailPage}>
+        {props.shoe.salePercentage ? (
+          <div className="img-sale">
+            <img
+              className="img-sale"
+              src="https://static.vecteezy.com/system/resources/previews/000/554/854/original/sale-text-badge-sign-vector.jpg"
+              alt="sale"
+            ></img>
+          </div>
+        ) : (
+          ""
+        )}
+
         <img src={props.shoe.imageUrl} alt="img" className="card-img-top " />
-        <div className="card-body">
-          <p className="card-text">{props.shoe.producer}</p>
-          <p className="card-title" style={{ minHeight: 75 }}>
+        <div className="card-body" style={{ padding: 0 }}>
+          <p className="card-text" style={{ margin: 0 }}>
+            {props.shoe.producer}
+          </p>
+          <p className="card-title" style={{ minHeight: 70, margin: 0 }}>
             {" "}
             {props.shoe.title}
           </p>
+          {props.shoe.salePercentage ? (
+            <p
+              className="card-text"
+              style={{
+                color: "red",
+                margin: 0,
+                textDecoration: "line-through",
+              }}
+            >
+              {formatNumber(props.shoe.price)}₫
+            </p>
+          ) : (
+            <p className="card-text" style={{ color: "red", margin: 0 }}>
+              {formatNumber(props.shoe.price)}₫
+            </p>
+          )}
 
-          <p className="card-text" style={{ color: "red" }}>
-            {formatNumber(props.shoe.price)}₫
-          </p>
+          {props.shoe.salePercentage ? (
+            <p className="card-text" style={{ color: "red", margin: 0 }}>
+              {formatNumber(salePercentage)}₫
+            </p>
+          ) : (
+            ""
+          )}
         </div>
       </div>
     </div>

@@ -3,22 +3,49 @@ import "./style.scss";
 import { DeleteOutlined } from "@ant-design/icons";
 
 const Cart = (props) => {
-  const { id, producer, title, price, imageUrl, size, quantity } = props.cart;
+  const {
+    id,
+    producer,
+    title,
+    price,
+    imageUrl,
+    size,
+    quantity,
+    total,
+    salePercentage,
+  } = props.cart;
 
   const { handleDeleteCart, handleUpdateCart } = props;
-  const total = parseFloat(props.cart.quantity) * parseFloat(props.cart.price);
+  // const total = parseFloat(props.cart.quantity) * parseFloat(props.cart.price);
   const handleChangeQuantity = (e) => {
-    const cartUpdate = {
-      id: id,
-      producer: producer,
-      title: title,
-      price: price,
-      imageUrl: imageUrl,
-      size: size,
-      quantity: parseFloat(e.target.value), //them quantity
-      total: parseFloat(e.target.value) * parseFloat(props.cart.price),
-    };
-    handleUpdateCart(cartUpdate);
+    const salePercentage = props.cart.salePercentage;
+
+    if (salePercentage > 0) {
+      const cartUpdate = {
+        id: id,
+        producer: producer,
+        title: title,
+        price: price,
+        imageUrl: imageUrl,
+        size: size,
+        salePercentage: salePercentage,
+        quantity: parseFloat(e.target.value), //them quantit
+        total: parseFloat(e.target.value) * parseFloat(salePercentage),
+      };
+      handleUpdateCart(cartUpdate);
+    } else {
+      const cartUpdate = {
+        id: id,
+        producer: producer,
+        title: title,
+        price: price,
+        imageUrl: imageUrl,
+        size: size,
+        quantity: parseFloat(e.target.value), //them quantity
+        total: parseFloat(e.target.value) * parseFloat(props.cart.price),
+      };
+      handleUpdateCart(cartUpdate);
+    }
   };
   const formatNumber = (price) => {
     let priceString = "";
@@ -55,7 +82,13 @@ const Cart = (props) => {
             min={0}
           ></input>
         </td>
-        <td>{formatNumber(price)}₫</td>
+        <td>
+          {salePercentage ? (
+            <span>{formatNumber(salePercentage)}₫</span>
+          ) : (
+            <span>{formatNumber(price)}₫</span>
+          )}
+        </td>
         <td>{formatNumber(total)}₫</td>
         <td>
           <DeleteOutlined

@@ -24,9 +24,9 @@ const ShoppingCart = () => {
   const { userInfo, isAuth } = useSelector((state) => state.user);
   const methods = useForm({
     defaultValues: {
-      name: "",
-      address: "",
-      numberphone: "",
+      name: userInfo.name,
+      address: userInfo.address,
+      numberphone: userInfo.numberphone,
     },
     resolver: yupResolver(schema),
   });

@@ -43,6 +43,15 @@ const Login = () => {
   return (
     <>
       <div className="form-login">
+        <div className="image">
+          <Link to={"/products?status=sale"}>
+            <img
+              className="image"
+              src="https://myshoes.vn/image/cache/catalog/2022/banner/slide-trai-20-300x500h.png"
+              alt="sale"
+            ></img>
+          </Link>
+        </div>
         <div className="register">
           <div className="register-content">
             <h2>KHÁCH HÀNG MỚI</h2>
@@ -109,6 +118,15 @@ const Login = () => {
               </Button>
             </div>
           </form>
+        </div>
+        <div className="image">
+          <Link to={"/products?status=sale"}>
+            <img
+              className="image"
+              src="https://myshoes.vn/image/cache/catalog/2023/banner/banner-sale-side-240x390.png"
+              alt="sale"
+            ></img>
+          </Link>
         </div>
       </div>
     </>

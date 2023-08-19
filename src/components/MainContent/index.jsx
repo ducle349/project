@@ -47,10 +47,6 @@ const MainContent = (props) => {
               <div className="title">Sản Phẩm Giày Chính Hãng</div>
               {renderShoe(props.shoes)}
             </div>
-            {/* <div className="row">
-              <div className="title">Phụ Kiện</div>
-              {renderAccessory(props.shoes)}
-            </div> */}
           </div>
         </div>
       </div>

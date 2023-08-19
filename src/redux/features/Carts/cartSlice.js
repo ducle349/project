@@ -62,9 +62,7 @@ const cartSlice = createSlice({
               imageUrl: action.payload.imageUrl,
               size: action.payload.size,
               quantity: parseFloat(action.payload.quantity), //them quantity
-              total:
-                parseFloat(action.payload.quantity) *
-                parseFloat(action.payload.price),
+              total: parseFloat(action.payload.total),
             }
           : item
       );

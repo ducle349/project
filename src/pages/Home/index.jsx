@@ -4,17 +4,20 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   actFetchAccessory,
   actFetchAllShoe,
+  actFetchSale,
   setNewPage,
 } from "../../redux/features/Shoes/shoeSlice";
 import { Pagination, Spin } from "antd";
 import "./style.scss";
 import Accsessory from "../../components/Accessory/Accessory";
 
+import Sliderproduct from "../../components/Slider/Sliderproduct";
+import { Link } from "react-router-dom";
+
 const HomePage = () => {
   const dispatch = useDispatch();
-  const { isLoading, shoes, pagination, searchKey, accsessory } = useSelector(
-    (state) => state.shoe
-  );
+  const { isLoading, shoes, pagination, searchKey, accsessory, productSale } =
+    useSelector((state) => state.shoe);
   useEffect(() => {
     dispatch(
       actFetchAllShoe({
@@ -27,6 +30,10 @@ const HomePage = () => {
   }, []);
   useEffect(() => {
     dispatch(actFetchAccessory());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  useEffect(() => {
+    dispatch(actFetchSale());
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const handleChangePage = (newPage) => {
@@ -46,7 +53,40 @@ const HomePage = () => {
   return (
     <>
       <div className="home">
-        <MainContent shoes={shoes} />
+        <div className="Sale-layout">
+          <div className="image">
+            <Link to={"/products?status=sale"}>
+              <img
+                className="image"
+                src="https://myshoes.vn/image/cache/catalog/2022/banner/slide-trai-20-300x500h.png"
+                alt="sale"
+              ></img>
+            </Link>
+          </div>
+          <Sliderproduct productSale={productSale} />
+          <div className="image">
+            <Link to={"/products?status=sale"}>
+              <img
+                className="image"
+                src="https://myshoes.vn/image/cache/catalog/2023/banner/banner-sale-side-240x390.png"
+                alt="sale"
+              ></img>
+            </Link>
+          </div>
+        </div>
+        {shoes.length > 0 ? (
+          <MainContent shoes={shoes} />
+        ) : (
+          <h2
+            style={{
+              textAlign: "center",
+              color: "red",
+              paddingTop: 50,
+            }}
+          >
+            Không có sản phẩm phù hợp{" "}
+          </h2>
+        )}
         <div className="pagination">
           <Pagination
             defaultPageSize={pagination.limitPerPage}

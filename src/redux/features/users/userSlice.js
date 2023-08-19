@@ -82,11 +82,11 @@ const userSlice = createSlice({
     },
     loginSuccess: (state, action) => {
       state.isLoading = false;
+
       state.isAuth = true;
       state.userInfo = { ...action.payload };
       localStorage.setItem("isAuth", true);
       localStorage.setItem("userInfo", JSON.stringify(action.payload));
-      globalNavigate(ROUTES.HOME_PAGE);
     },
     actSetErrors: (state, action) => {
       state.errors = action.payload;

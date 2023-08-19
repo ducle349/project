@@ -1,9 +1,9 @@
 {
   "users": [
     {
-      "name": "The Rock",
+      "name": "aka 47",
       "numberphone": "0396957819",
-      "address": "Lệ Xuyên",
+      "address": "22 quang thanh 2",
       "email": "duc@gmail.com",
       "password": "12345",
       "id": 1
@@ -21,6 +21,8 @@
     {
       "id": 1,
       "producer": "nike",
+      "status": "sale",
+      "salePercentage": 50,
       "title": "Giày nike Air Max Command Nam - Xám Xanh",
       "price": 2690000,
       "size": [
@@ -35,6 +37,8 @@
     {
       "id": 2,
       "producer": "nike",
+      "status": "sale",
+      "salePercentage": 50,
       "title": "GIÀY NIKE AIR MAX COMMAND NAM - XÁM NAVY",
       "price": 1490000,
       "size": [
@@ -48,6 +52,8 @@
     {
       "id": 3,
       "producer": "nike",
+      "status": "sale",
+      "salePercentage": 5,
       "title": "GIÀY NIKE SB ALLEYOOP NAM - TRẮNG",
       "price": 1890000,
       "size": [
@@ -74,6 +80,8 @@
     {
       "id": 5,
       "producer": "nike",
+      "status": "sale",
+      "salePercentage": 12,
       "title": "GIÀY NIKE COURT VISION LOW NAM - TRẮNG XANH",
       "price": 1990000,
       "size": [
@@ -139,6 +147,8 @@
     {
       "id": 10,
       "producer": "nike",
+      "status": "sale",
+      "salePercentage": 15,
       "title": "GIÀY NIKE AIR JORDAN 1 MID SE NAM - NÂU TRẮNG",
       "price": 3890000,
       "size": [
@@ -196,6 +206,8 @@
     {
       "id": 14,
       "producer": "adidas",
+      "status": "sale",
+      "salePercentage": 5,
       "title": "GIÀY ADIDAS VULC RAID3R NAM - ĐEN TRẮNG",
       "price": 1590000,
       "size": [
@@ -251,6 +263,8 @@
     {
       "id": 18,
       "producer": "adidas",
+      "status": "sale",
+      "salePercentage": 10,
       "title": "GIÀY ADIDAS SOLARGLIDE 5 NAM - VÀNG CAM",
       "price": 2490000,
       "size": [
@@ -337,6 +351,8 @@
     {
       "id": 24,
       "producer": "puma",
+      "status": "sale",
+      "salePercentage": 25,
       "title": "GIÀY PUMA TAPER NAM - NAVY TRẮNG",
       "price": 1290000,
       "size": [
@@ -378,6 +394,8 @@
     {
       "id": 27,
       "producer": "puma",
+      "status": "sale",
+      "salePercentage": 15,
       "title": "GIÀY PUMA NRGY RUPTURE NAM - ĐEN FULL",
       "price": 890000,
       "size": [
@@ -447,6 +465,8 @@
     {
       "id": 32,
       "producer": "balance",
+      "status": "sale",
+      "salePercentage": 10,
       "title": "GIÀY NEW BALANCE VIAZA NAM - XANH LAM",
       "price": 1290000,
       "size": [
@@ -487,6 +507,8 @@
     {
       "id": 35,
       "producer": "balance",
+      "status": "sale",
+      "salePercentage": 20,
       "title": "GIÀY NEW BALANCE M411 NAM - ĐEN TRẮNG",
       "price": 1890000,
       "size": [
@@ -530,6 +552,8 @@
     {
       "id": 38,
       "producer": "lacoste",
+      "status": "sale",
+      "salePercentage": 17,
       "title": "GIÀY LACOSTE GRIPSHOT BL CNV NAM - TRẮNG",
       "price": 1790000,
       "size": [
@@ -572,6 +596,8 @@
     {
       "id": 41,
       "producer": "lacoste",
+      "status": "sale",
+      "salePercentage": 15,
       "title": "GIÀY LACOSTE POWERCOURT 222 7 NAM - TRẮNG XANH",
       "price": 2590000,
       "size": [
@@ -616,6 +642,8 @@
       "id": 44,
       "producer": "lacoste",
       "title": "GIÀY LACOSTE STORM 96 LO NAM - NÂU",
+      "status": "sale",
+      "salePercentage": 22,
       "price": 2490000,
       "size": [
         39,
@@ -690,66 +718,124 @@
   ],
   "oders": [
     {
-      "name": "LÊ MINH ĐỨC",
-      "address": "22 quang thanh 2",
+      "name": "le minh duc",
+      "address": "22 quang thanh 88",
       "numberphone": "0396957819",
       "carts": [
         {
-          "id": 32,
-          "producer": "balance",
-          "title": "GIÀY NEW BALANCE VIAZA NAM - XANH LAM",
-          "price": 1290000,
-          "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/newbalance/16.5/giay-new-balance-viaza-nam-xanh-lam-01-800x800.jpg",
-          "size": 41,
-          "quantity": 2,
-          "total": 2580000
+          "id": 1,
+          "producer": "nike",
+          "title": "Giày nike Air Max Command Nam - Xám Xanh",
+          "price": 2690000,
+          "salePercentage": 1345000,
+          "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/nike/nk012/giay-nike-air-max-command-nam-xam-xanh-01-1000x1000.jpg",
+          "size": 42,
+          "quantity": 1,
+          "total": 1345000
         }
       ],
       "idUser": 1,
-      "total": 2580000,
-      "createAt": "13/08/2023",
+      "total": 1345000,
+      "createAt": "17/08/2023",
       "id": 1
     },
     {
-      "name": "le minh duc",
+      "name": "LÊ MINH ĐỨC",
+      "address": "22 quang thanh 88",
+      "numberphone": "0396957819",
+      "carts": [
+        {
+          "id": 2,
+          "producer": "nike",
+          "title": "GIÀY NIKE AIR MAX COMMAND NAM - XÁM NAVY",
+          "price": 1490000,
+          "salePercentage": 745000,
+          "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/nike/nk012/giay-nike-air-max-command-nam-xam-navy-01-800x800.jpg",
+          "size": 40,
+          "quantity": 2,
+          "total": 1490000
+        }
+      ],
+      "idUser": 1,
+      "total": 1490000,
+      "createAt": "17/08/2023",
+      "id": 2
+    },
+    {
+      "name": "LÊ MINH ĐỨC",
+      "address": "22 quang thanh 88",
+      "numberphone": "0396957819",
+      "carts": [
+        {
+          "id": 1,
+          "producer": "nike",
+          "title": "Giày nike Air Max Command Nam - Xám Xanh",
+          "price": 2690000,
+          "salePercentage": 1345000,
+          "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/nike/nk012/giay-nike-air-max-command-nam-xam-xanh-01-1000x1000.jpg",
+          "size": 41,
+          "quantity": 3,
+          "total": 4035000
+        }
+      ],
+      "idUser": 1,
+      "total": 4035000,
+      "createAt": "19/08/2023",
+      "id": 3
+    },
+    {
+      "name": "LÊ MINH ĐỨC",
+      "address": "22 quang thanh 88",
+      "numberphone": "0396957819",
+      "carts": [
+        {
+          "id": 5,
+          "producer": "nike",
+          "title": "GIÀY NIKE COURT VISION LOW NAM - TRẮNG XANH",
+          "price": 1990000,
+          "salePercentage": 1751200,
+          "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/nike/nk011/giay-nike-court-vision-low-nam-trang-xanh-01-800x800.jpg",
+          "size": 43,
+          "quantity": 3,
+          "total": 5253600
+        },
+        {
+          "id": 12,
+          "producer": "adidas",
+          "title": "GIÀY ADIDAS ADVANCOURT BASE NAM - TRẮNG",
+          "price": 1390000,
+          "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/adidas/adi4/giay-adidas-advantage-base-nam-nu-trang-den-01-800x800.jpg",
+          "size": 41,
+          "quantity": 2,
+          "total": 2780000
+        }
+      ],
+      "idUser": 1,
+      "total": 8033600,
+      "createAt": "19/08/2023",
+      "id": 4
+    },
+    {
+      "name": "aka 47",
       "address": "22 quang thanh 2",
       "numberphone": "0396957819",
       "carts": [
         {
-          "id": 48,
-          "producer": "mycare",
-          "title": "XỊT BỌT ION LÀM SẠCH GIÀY MYCARE FOAMING CLEANER",
-          "price": 119000,
-          "imageUrl": "https://myshoes.vn/image/cache/catalog/2022/mycare/xit-bot-lam-sach-giay-mycare-foaming-cleaner-011-800x800.jpg",
-          "size": 200,
-          "quantity": 6,
-          "total": 714000
-        },
-        {
-          "id": 11,
-          "producer": "adidas",
-          "title": "GIÀY ADIDAS DURAMO SPEED NAM - XANH NAVY",
+          "id": 3,
+          "producer": "nike",
+          "title": "GIÀY NIKE SB ALLEYOOP NAM - TRẮNG",
           "price": 1890000,
-          "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/adidas/ad5/giay-adidas-duramo-speed-nam-xanh-navy-01-800x800.jpg",
-          "size": 41,
-          "quantity": 2,
-          "total": 3780000
-        },
-        {
-          "id": 11,
-          "producer": "adidas",
-          "title": "GIÀY ADIDAS DURAMO SPEED NAM - XANH NAVY",
-          "price": 1890000,
-          "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/adidas/ad5/giay-adidas-duramo-speed-nam-xanh-navy-01-800x800.jpg",
+          "salePercentage": 1795500,
+          "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/nike/nk012/giay-nikesb-alleyoop-nam-trang-01-800x800.jpg",
           "size": 40,
-          "quantity": 3,
-          "total": 5670000
+          "quantity": 2,
+          "total": 3591000
         }
       ],
       "idUser": 1,
-      "total": 10164000,
-      "createAt": "15/08/2023",
-      "id": 2
+      "total": 3591000,
+      "createAt": "19/08/2023",
+      "id": 5
     }
   ],
   "productComments": [

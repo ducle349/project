@@ -25,7 +25,7 @@ const DetailsPage = () => {
     dispatch(actFetchShoeById(params.id));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [params]);
-
+  const salePercentage = shoe.price - (shoe.price * shoe.salePercentage) / 100;
   const handleAddCart = () => {
     if (valueSize === "" || quantity === "") {
       setIsValid(false);
@@ -34,17 +34,36 @@ const DetailsPage = () => {
     }
     if (isValid) {
       setIsValid(true);
-      const productCart = {
-        id: shoe.id,
-        producer: shoe.producer,
-        title: shoe.title,
-        price: shoe.price,
-        imageUrl: shoe.imageUrl,
-        size: valueSize,
-        quantity: parseFloat(quantity),
-        total: parseFloat(quantity) * parseFloat(shoe.price),
-      };
-      dispatch(actAddToCart(productCart));
+      const salePercentage =
+        shoe.price - (shoe.price * shoe.salePercentage) / 100;
+
+      if (salePercentage > 0) {
+        const productCart = {
+          id: shoe.id,
+          producer: shoe.producer,
+          title: shoe.title,
+          price: shoe.price,
+          salePercentage: salePercentage,
+          imageUrl: shoe.imageUrl,
+          size: valueSize,
+          quantity: parseFloat(quantity),
+          total: parseFloat(quantity) * parseFloat(salePercentage),
+        };
+        dispatch(actAddToCart(productCart));
+      } else {
+        const productCart = {
+          id: shoe.id,
+          producer: shoe.producer,
+          title: shoe.title,
+          price: shoe.price,
+          imageUrl: shoe.imageUrl,
+          size: valueSize,
+          quantity: parseFloat(quantity),
+          total: parseFloat(quantity) * parseFloat(shoe.price),
+        };
+
+        dispatch(actAddToCart(productCart));
+      }
     }
   };
   const size = shoe.size;
@@ -75,6 +94,7 @@ const DetailsPage = () => {
     }
     return priceString;
   };
+
   return (
     <>
       <div className="details">
@@ -83,12 +103,25 @@ const DetailsPage = () => {
         </div>
         <div className="details__content">
           <h3 className="details__content-item">{shoe.title}</h3>
-          <div
-            className="details__content-item"
-            style={{ fontWeight: 600, color: "red", fontSize: 20 }}
-          >
-            Giá: {formatNumber(shoe.price)}₫
-          </div>
+          {shoe.salePercentage ? (
+            <div
+              className="details__content-item"
+              style={{ fontWeight: 600, color: "red", fontSize: 20 }}
+            >
+              Giá: <span> {formatNumber(salePercentage)}₫</span>{" "}
+              <span style={{ textDecoration: "line-through" }}>
+                {" "}
+                {formatNumber(shoe.price)}₫{" "}
+              </span>
+            </div>
+          ) : (
+            <div
+              className="details__content-item"
+              style={{ fontWeight: 600, color: "red", fontSize: 20 }}
+            >
+              Giá: {formatNumber(shoe.price)}₫
+            </div>
+          )}
           {shoe.producer === "Mycare" ? (
             ""
           ) : (

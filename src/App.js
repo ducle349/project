@@ -39,7 +39,6 @@ function App() {
         </Routes>
         <Routes>
           <Route element={<ProfileLayout />}>
-            <Route index element={<ProfileUser />} />
             <Route path={ROUTES.ODER_PAGE} element={<Oders />} />
             <Route path={ROUTES.UPDATEPASS_PAGE} element={<UpdatePass />} />
             <Route path={ROUTES.INFORUSER_PAGE} element={<InfoUser />} />

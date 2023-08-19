@@ -5,6 +5,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import "./style.scss";
 import { useDispatch } from "react-redux";
 import { actCreateUser } from "../../redux/features/users/userSlice";
+import { Link } from "react-router-dom";
 const schema = Yup.object().shape({
   name: Yup.string().required("Please input name"),
   numberphone: Yup.string().required("Please input numberphone"),
@@ -36,6 +37,15 @@ const Register = () => {
   return (
     <>
       <div className="form-register">
+        <div className="image">
+          <Link to={"/products?status=sale"}>
+            <img
+              className="image"
+              src="https://myshoes.vn/image/cache/catalog/2022/banner/slide-trai-20-300x500h.png"
+              alt="sale"
+            ></img>
+          </Link>
+        </div>
         <form className="input-form" onSubmit={handleSubmit(onValid)}>
           <h2>ĐĂNG KÝ</h2>
           <div className="input-form__item">
@@ -129,6 +139,15 @@ const Register = () => {
             </Button>
           </div>
         </form>
+        <div className="image">
+          <Link to={"/products?status=sale"}>
+            <img
+              className="image"
+              src="https://myshoes.vn/image/cache/catalog/2023/banner/banner-sale-side-240x390.png"
+              alt="sale"
+            ></img>
+          </Link>
+        </div>
       </div>
     </>
   );

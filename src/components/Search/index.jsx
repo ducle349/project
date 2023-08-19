@@ -3,7 +3,7 @@ import { Select } from "antd";
 
 import "./style.scss";
 const Search = (props) => {
-  const { handlesearchSize, handleSortPrice } = props;
+  const { handlesearchSize, handleSortPrice, handleDeleteFilter } = props;
 
   const sortPrice = (value) => {
     handleSortPrice(value);
@@ -12,7 +12,6 @@ const Search = (props) => {
   const onChangeFilterSize = (size, values) => {
     handlesearchSize(values);
   };
-
   return (
     <>
       <div className="search">
@@ -44,27 +43,6 @@ const Search = (props) => {
               },
             ]}
           />
-          {/* <Slider
-            onChange={onChangeFilterPrice}
-            range={{
-              draggableTrack: true,
-            }}
-            defaultValue={[100000, 500000]}
-            min={100000}
-            max={5000000}
-          /> */}
-          {/* <div style={{ display: "flex", gap: 10, marginTop: 5 }}>
-            <span>Từ</span>
-            <Input
-              value={formatNumber(searchPrice[0]) + " ₫"}
-              style={{ color: "red", width: 100 }}
-            />
-            <span>Đến</span>
-            <Input
-              value={formatNumber(searchPrice[1]) + " ₫"}
-              style={{ color: "red", width: 100 }}
-            />
-          </div> */}
         </div>
         <div className="search__size">
           <div className="search__size__title">SIZE</div>
@@ -82,6 +60,7 @@ const Search = (props) => {
             ]}
           />
         </div>
+        <div onClick={handleDeleteFilter}>Xóa tìm kiếm</div>
       </div>
     </>
   );

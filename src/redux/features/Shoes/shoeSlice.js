@@ -4,6 +4,7 @@ const initialState = {
   isLoading: false,
   shoes: [],
   accsessory: [],
+  productSale: [],
   currentShoe: [],
   errors: {},
   pagination: {
@@ -46,6 +47,13 @@ export const actFetchAccessory = createAsyncThunk(
   "Accessory/actFetchAccessory",
   async () => {
     const response = await ShoeAPIs.getAllShoes({ producer: "mycare" });
+    return response.data;
+  }
+);
+export const actFetchSale = createAsyncThunk(
+  "productSale/actFetchSale",
+  async () => {
+    const response = await ShoeAPIs.getAllShoes({ status: "sale" });
     return response.data;
   }
 );
@@ -97,6 +105,16 @@ const shoeSlice = createSlice({
         state.params.price_lte = 5000000;
       }
     },
+    deleteFilter: (state, action) => {
+      state.params = {
+        _sort: null,
+        _order: null,
+        brand: null,
+        q: null,
+        price_lte: null,
+        price_gte: null,
+      };
+    },
   },
   extraReducers: (builder) => {
     builder.addCase(actFetchAllShoe.pending, (state, action) => {
@@ -119,6 +137,10 @@ const shoeSlice = createSlice({
       state.accsessory = action.payload;
       state.isLoading = false;
     });
+    builder.addCase(actFetchSale.fulfilled, (state, action) => {
+      state.productSale = action.payload;
+      state.isLoading = false;
+    });
   },
 });
 
@@ -128,5 +150,6 @@ export const {
   setNewPage,
   setSearchKey,
   fiterProduct,
+  deleteFilter,
 } = shoeSlice.actions;
 export const shoeReducer = shoeSlice.reducer;

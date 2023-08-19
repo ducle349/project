@@ -1,9 +1,19 @@
 .home{
     margin-bottom: 50px;
+    padding-top: 50px;
 }
 .pagination{
    
     display: flex;
    
     justify-content: center;
+}
+.Sale-layout{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.image{
+    width: 200px;
 }

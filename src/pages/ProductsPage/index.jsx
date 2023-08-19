@@ -6,6 +6,7 @@ import "./style.scss";
 import { useDispatch, useSelector } from "react-redux";
 import {
   actFetchAllShoe,
+  deleteFilter,
   fiterProduct,
   setNewPage,
 } from "../../redux/features/Shoes/shoeSlice";
@@ -18,6 +19,7 @@ import { useSearchParams } from "react-router-dom";
 const ProductsPage = () => {
   const [searchParams] = useSearchParams();
   const brand = searchParams.get("brand");
+  const status = searchParams.get("status");
   const dispatch = useDispatch();
   const { pagination, searchKey, params, shoes } = useSelector(
     (state) => state.shoe
@@ -30,6 +32,7 @@ const ProductsPage = () => {
         q: searchKey,
         ...params,
         producer: brand,
+        status: status,
       })
     );
 
@@ -47,10 +50,13 @@ const ProductsPage = () => {
         _limit: pagination.limitPerPage,
         q: searchKey,
         producer: brand,
+        status: status,
       })
     );
   };
-
+  const handleDeleteFilter = () => {
+    dispatch(deleteFilter());
+  };
   const handlesearchSize = (searchSize) => {
     dispatch(fiterProduct(searchSize));
   };
@@ -64,6 +70,7 @@ const ProductsPage = () => {
           <Search
             handlesearchSize={handlesearchSize}
             handleSortPrice={handleSortPrice}
+            handleDeleteFilter={handleDeleteFilter}
           />
           ;
         </div>
