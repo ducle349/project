@@ -37,18 +37,21 @@ const Register = () => {
   return (
     <>
       <div className="form-register">
-        <div className="image">
+        <div className="imageregister">
           <Link to={"/products?status=sale"}>
             <img
-              className="image"
+              className="imageregister"
               src="https://myshoes.vn/image/cache/catalog/2022/banner/slide-trai-20-300x500h.png"
               alt="sale"
             ></img>
           </Link>
         </div>
-        <form className="input-form" onSubmit={handleSubmit(onValid)}>
+        <form
+          className="input-form registerform"
+          onSubmit={handleSubmit(onValid)}
+        >
           <h2>ĐĂNG KÝ</h2>
-          <div className="input-form__item">
+          <div className="formregister__item">
             <label className="input-form__label" style={{ minWidth: 150 }}>
               Name
             </label>
@@ -63,7 +66,7 @@ const Register = () => {
           {!!errors.name?.message && (
             <span style={{ color: "red" }}>{errors.name?.message}</span>
           )}
-          <div className="input-form__item">
+          <div className="formregister__item">
             <label className="input-form__label" style={{ minWidth: 150 }}>
               Số điện thoại
             </label>
@@ -79,7 +82,7 @@ const Register = () => {
             <span style={{ color: "red" }}>{errors.numberphone?.message}</span>
           )}
 
-          <div className="input-form__item">
+          <div className="formregister__item">
             <label className="input-form__label" style={{ minWidth: 150 }}>
               Địa chỉ
             </label>
@@ -95,7 +98,7 @@ const Register = () => {
             <span style={{ color: "red" }}>{errors.address?.message}</span>
           )}
 
-          <div className="input-form__item">
+          <div className="formregister__item">
             <label className="input-form__label" style={{ minWidth: 150 }}>
               Email
             </label>
@@ -112,7 +115,7 @@ const Register = () => {
             <span style={{ color: "red" }}>{errors.email?.message}</span>
           )}
 
-          <div className="input-form__item">
+          <div className="formregister__item">
             <label className="input-form__label" style={{ minWidth: 150 }}>
               Password
             </label>
@@ -139,10 +142,10 @@ const Register = () => {
             </Button>
           </div>
         </form>
-        <div className="image">
+        <div className="imageregister">
           <Link to={"/products?status=sale"}>
             <img
-              className="image"
+              className="imageregister"
               src="https://myshoes.vn/image/cache/catalog/2023/banner/banner-sale-side-240x390.png"
               alt="sale"
             ></img>

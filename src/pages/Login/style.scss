@@ -7,12 +7,21 @@
 .register{
     width: 30%;
     text-align: center;
+    box-shadow: 0px 0px 5px 5px rgba($color: rgb(18, 20, 31), $alpha: 0.2) ;
+    background-color: rgba($color: #1215c2, $alpha: 0.5);
+    padding: 10px;
 }
 .register-content{
     height: 170px;
 }
 .login{
-    width: 40%;
+    width: 30%;
+    box-shadow: 0px 0px 5px 5px rgba($color: rgb(18, 20, 31), $alpha: 0.2) ;
+    background-color: rgba($color: #1215c2, $alpha: 0.5);
+    padding: 10px;
+}
+.image-login{
+    width: 200px;
 }
 .input-login{
     height: 170px;
@@ -20,7 +29,7 @@
 }
 .input-form__btn{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
     bottom: 0;
     align-items: center;
     width: 100px;
@@ -30,6 +39,7 @@
     font-weight: 400;
 }
 .input-form__item{
+   
     text-align: center;
     display: flex;
     justify-content: flex-start;
@@ -40,4 +50,33 @@
 }
 .btn-form{
     text-align: center;
+}
+@media  screen and  (max-width:1023px) {
+    .image-login{
+        width: 150px;
+    }
+    .form-login{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+ }
+ @media screen and (max-width:767px ) {
+    .image-login{
+        display: none;
+    }
+    .form-login{
+        display: flex;
+       flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+    }
+    .login{
+        width: 100%;
+    }
+    .register{
+        width: 100%;
+    }
+    .btn_register{
+        margin-top: 0;
+    }
 }

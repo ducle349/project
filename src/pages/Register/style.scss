@@ -2,10 +2,41 @@
     display: flex;
     justify-content: space-between;
    padding: 20px;
-   width: 100%;
-
+}
+.registerform{
+    box-shadow: 0px 0px 5px 5px rgba($color: rgb(18, 20, 31), $alpha: 0.2) ;
+    background-color: rgba($color: #1215c2, $alpha: 0.5);
+    padding: 20px;
 }
 .input-form__item{
     text-align: left;
     width: 500px;
+}
+.imageregister{
+    width: 200px;
+}
+@media  screen and  (max-width:1023px) {
+    .form-register{
+       display: flex;
+       justify-content: center;
+     margin-top: 50px;
+     margin-bottom: 50px;
+    
+    }
+    .image-login{
+        width: 150px;
+    }
+    .imageregister{
+        display: none;
+    }
+    
+ }
+ @media screen and (max-width:767px ) {
+    .form-register{
+        display: flex;
+        justify-content: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+     width: 100%;
+     }
 }

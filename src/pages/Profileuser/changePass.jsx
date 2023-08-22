@@ -58,10 +58,10 @@ const UpdatePass = () => {
   return (
     <>
       <div className="form-changepass">
-        <div className="image">
+        <div className="form-changepass-image">
           <Link to={"/products?status=sale"}>
             <img
-              className="image"
+              style={{ width: "100%" }}
               src="https://myshoes.vn/image/cache/catalog/2022/banner/slide-trai-20-300x500h.png"
               alt="sale"
             ></img>
@@ -69,7 +69,7 @@ const UpdatePass = () => {
         </div>
         <form className="input-changepass" onSubmit={handleSubmit(onValid)}>
           <h2 style={{ textAlign: "center" }}>ĐỔI MẬT KHẨU</h2>
-          <div className="input-form__item">
+          <div className="input-form__item itemchangepass">
             <label className="input-form__label" style={{ minWidth: 200 }}>
               Mật khẩu cũ
             </label>
@@ -95,7 +95,7 @@ const UpdatePass = () => {
             </div>
           </div>
 
-          <div className="input-form__item">
+          <div className="input-form__item itemchangepass">
             <label className="input-form__label" style={{ minWidth: 200 }}>
               Mật khẩu mới
             </label>
@@ -121,7 +121,7 @@ const UpdatePass = () => {
             </div>
           </div>
 
-          <div className="input-form__item">
+          <div className="input-form__item itemchangepass">
             <label className="input-form__label" style={{ minWidth: 200 }}>
               Nhập lại mật khẩu mới
             </label>
@@ -157,10 +157,10 @@ const UpdatePass = () => {
             </Button>
           </div>
         </form>
-        <div className="image">
+        <div className="form-changepass-image">
           <Link to={"/products?status=sale"}>
             <img
-              className="image"
+              style={{ width: "100%" }}
               src="https://myshoes.vn/image/cache/catalog/2023/banner/banner-sale-side-240x390.png"
               alt="sale"
             ></img>

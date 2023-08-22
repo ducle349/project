@@ -11,11 +11,9 @@
     background: rgb(211, 214, 216);
     list-style: none;
     margin-bottom: 0;
-    
 }
 .menu-profile_list{
-    padding: 20px;
-    
+    padding: 20px;  
 }
 .menu-profile_listitem{
     text-align: center;
@@ -30,4 +28,55 @@
     text-align: center;
     font-size: 20px;
     font-weight: 700;
+}
+.info-item{
+    display: block;
+    display: flex;
+    justify-content: center;
+   width: 100%;
+}
+.info-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.info-content{
+    margin-top: 10px;
+    width: 90%;
+    box-shadow: 0px 0px 5px 5px rgba($color: rgb(18, 20, 31), $alpha: 0.2) ;
+    border-radius: 20px;
+    background-color: rgba($color: #1215c2, $alpha: 0.5);
+    padding: 10px;
+    text-align: center;
+}
+@media  screen and  (max-width:1023px) {
+    .menu-profile_listitem{
+        font-size: 20px;
+        font-weight: 500;
+       
+}
+}
+@media screen and (max-width:767px ) {
+    .menu-profile{
+        display: flex;
+        margin-top: 55px;
+        padding-bottom: 0;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .menu-profile_list{
+        border: 0.5px solid white;
+    }
+    .menu-profile_listitem{
+       
+            font-size: 10px;
+            font-weight: 500;
+           
+    }
+    .info-content{
+      
+        margin-bottom: 10px;
+        
+    }
 }

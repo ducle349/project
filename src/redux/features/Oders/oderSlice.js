@@ -43,7 +43,7 @@ const oderSlice = createSlice({
     });
     builder.addCase(actFetchAllOder.fulfilled, (state, action) => {
       state.oders = action.payload;
-      console.log("pl", action.payload);
+
       state.isLoading = false;
     });
   },

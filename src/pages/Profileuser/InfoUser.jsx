@@ -9,17 +9,19 @@ const InfoUser = () => {
     <>
       <div className="info-main">
         <Avatar size={100} icon={<UserOutlined />} />
-        <div>
-          <p>Tên đăng nhập: {userInfo.name}</p>
-        </div>
-        <div>
-          <p>Email: {userInfo.email}</p>
-        </div>
-        <div>
-          <p>Địa chỉ: {userInfo.address}</p>
-        </div>
-        <div>
-          <p>Số điện thoại: {userInfo.numberphone}</p>
+        <div className="info-content">
+          <div>
+            <p>Tên đăng nhập: {userInfo.name}</p>
+          </div>
+          <div>
+            <p>Email: {userInfo.email}</p>
+          </div>
+          <div>
+            <p>Địa chỉ: {userInfo.address}</p>
+          </div>
+          <div>
+            <p>Số điện thoại: {userInfo.numberphone}</p>
+          </div>
         </div>
       </div>
     </>

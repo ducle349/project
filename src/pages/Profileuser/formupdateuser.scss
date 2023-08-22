@@ -1,10 +1,48 @@
 .form-updateuser{
     display: flex;
     justify-content: space-between;
+    width: 100%;
     gap: 10px;
     padding: 10px;
 
 }
 .input-updateuser{
+    width:60% ;
+   box-shadow: 0px 0px 5px 5px rgba($color: rgb(18, 20, 31), $alpha: 0.2) ;
+    background-color: rgba($color: #1215c2, $alpha: 0.5);
+    padding: 10px;
     text-align: center;
+}
+.form-updateuser-image{
+    width: 20%;
+}
+@media  screen and  (max-width:1023px) {
+    .form-updateuser-image{
+        display: none;
+    }
+    .input-updateuser{
+        margin: 0 auto;
+        width:100% ;
+        box-shadow: 0px 0px 5px 5px rgba($color: rgb(18, 20, 31), $alpha: 0.2) ;
+        background-color: rgba($color: #1215c2, $alpha: 0.5);
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+    }
+    .item-updateuser{
+        display: flex;
+        justify-content: center;
+    }
+ }
+ @media screen and (max-width:767px ) {
+    .input-updateuser{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .item-updateuser{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }

@@ -3,8 +3,47 @@
     justify-content: space-between;
     gap: 10px;
     padding: 10px;
-
+}
+.form-changepass-image{
+    width: 20%;
 }
 .input-changepass{
+    width:60% ;
+   box-shadow: 0px 0px 5px 5px rgba($color: rgb(18, 20, 31), $alpha: 0.2) ;
+    background-color: rgba($color: #1215c2, $alpha: 0.5);
+    padding: 10px;
     text-align: center;
+}
+@media  screen and  (max-width:1023px) {
+   .form-changepass-image{
+    display: none;
+   }
+   .input-changepass{
+    align-items: center;
+    margin: 0 auto;
+    width:100% ;
+   box-shadow: 0px 0px 5px 5px rgba($color: rgb(18, 20, 31), $alpha: 0.2) ;
+    background-color: rgba($color: #1215c2, $alpha: 0.5);
+   
+    align-items: center;
+    text-align: center;
+}
+.itemchangepass{
+    display: flex;
+    justify-content: center;
+}
+}
+@media screen and (max-width:767px ) {
+    .input-changepass{
+        display: flex;
+        flex-direction: column;
+    text-align: center;
+
+    }
+    .itemchangepass{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

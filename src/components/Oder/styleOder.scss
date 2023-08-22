@@ -1,0 +1,41 @@
+.col2-layout2oder{
+   display: none;
+}
+.col1-itemoder{
+   width: 10vw;
+}
+.col1-itemoder-img{
+   width: 100%;
+}
+@media  screen and  (max-width:1023px) {
+   .col1-itemoder{
+      width: 15vw;
+   }
+    td{
+       padding: 0;
+    }
+    .col2-layout2oder{
+      display: block;
+   }
+    .col3-itemoder{
+       display: none;
+    }
+    .col6-itemoder{
+     display: none;
+  }
+}
+@media  screen and  (max-width:1023px) {
+    
+   td{
+      padding: 0;
+   }
+   .col2-layout2oder{
+     display: block;
+  }
+   .col4-itemoder{
+      display: none;
+   }
+   .col1-itemoder{
+     width: 5vw;
+   }
+}

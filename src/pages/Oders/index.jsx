@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-import "./style.scss";
+import "./styleOders.scss";
 
 import { Spin } from "antd";
 
@@ -24,7 +24,6 @@ const Oders = () => {
       });
     });
   };
-  console.log(renderOders(oders));
   if (isLoading) {
     return <Spin />;
   }
@@ -36,13 +35,13 @@ const Oders = () => {
           <table className="table">
             <tbody>
               <tr>
-                <td>Hình ảnh</td>
-                <td>Tên sản phẩm</td>
-                <td>Size</td>
-                <td>Số lượng</td>
-                <td>Đơn giá</td>
-                <td>Tổng cộng</td>
-                <td>Ngày</td>
+                <td className="col1 col1oder">Hình ảnh</td>
+                <td className="col2">Tên sản phẩm</td>
+                <td className="col3">Size</td>
+                <td className="col4">Số lượng</td>
+                <td className="col5">Đơn giá</td>
+                <td className="col6">Tổng cộng</td>
+                <td className="col7">Ngày</td>
               </tr>
               {renderOders(oders)}
             </tbody>

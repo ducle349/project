@@ -24,7 +24,9 @@
     text-align: center;
     width: 70%;
 }
-
+.col2{
+    width: 20%;
+}
 label{
     align-items: center;
     cursor: pointer;
@@ -34,5 +36,40 @@ label{
     &_item{
         text-align: center;
         margin: 5px;
+    }
+}
+@media  screen and  (max-width:1023px) {
+    .cart{
+       margin-top: 55px;
+    }
+   .cart-content{
+    display: flex;
+    flex-direction: column;
+    
+   }
+    .pay{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         padding: 10px;
+         text-align: center;
+         border: 1 solid black;
+         background-color: rgba($color: #6d5a5a, $alpha: 0.1);
+         width: 100%;
+     }
+     td{
+        padding: 0;
+     }
+   
+    
+     .col3{
+        display: none;
+     }
+    
+ }
+ @media screen and (max-width:767px ) {
+    .col6{
+       display: none;
+        
     }
 }

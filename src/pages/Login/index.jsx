@@ -43,10 +43,10 @@ const Login = () => {
   return (
     <>
       <div className="form-login">
-        <div className="image">
+        <div className="image-login">
           <Link to={"/products?status=sale"}>
             <img
-              className="image"
+              className="image-login"
               src="https://myshoes.vn/image/cache/catalog/2022/banner/slide-trai-20-300x500h.png"
               alt="sale"
             ></img>
@@ -62,7 +62,7 @@ const Login = () => {
             </p>
           </div>
           <Link to={ROUTES.REGISTER_PAGE}>
-            <Button className="input-form__btn">Đăng Ký</Button>
+            <Button className="input-form__btn btn_register">Đăng Ký</Button>
           </Link>
         </div>
         <div className="login">
@@ -70,7 +70,7 @@ const Login = () => {
           <form className="input-form" onSubmit={handleSubmit(onValid)}>
             <div className="input-login">
               <h2>ĐĂNG NHẬP</h2>
-              <div className="input-form__item">
+              <div className="formlogin__item">
                 <label className="input-form__label" style={{ minWidth: 100 }}>
                   UserName:
                 </label>
@@ -86,7 +86,7 @@ const Login = () => {
               {!!errors.username?.message && (
                 <span style={{ color: "red" }}>{errors.username?.message}</span>
               )}
-              <div className="input-form__item">
+              <div className="formlogin__item">
                 <label className="input-form__label" style={{ minWidth: 100 }}>
                   Password:
                 </label>
@@ -119,10 +119,10 @@ const Login = () => {
             </div>
           </form>
         </div>
-        <div className="image">
+        <div className="image-login">
           <Link to={"/products?status=sale"}>
             <img
-              className="image"
+              className="image-login"
               src="https://myshoes.vn/image/cache/catalog/2023/banner/banner-sale-side-240x390.png"
               alt="sale"
             ></img>

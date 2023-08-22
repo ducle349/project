@@ -49,7 +49,6 @@ const Hearder = () => {
       ? setMenuActive("menu menu_active")
       : setMenuActive("menu");
   };
-
   const location = useLocation();
   const handleLogout = () => {
     dispatch(actLogout());
@@ -99,10 +98,15 @@ const Hearder = () => {
           </form>
           <div className="header-title-block3">
             <div className="header-title__formlogin">
+              <div className="nameuser" style={{ color: "white" }}>
+                <span>xin chào</span>
+                <span>{userInfo.name}</span>
+              </div>
               <div className="formlogin-item">
                 <Link to={ROUTES.PROFILEUSER_PAGE}>
                   <Avatar size={40} icon={<UserOutlined />} />
                 </Link>
+
                 <div>
                   {isAuth ? (
                     <span style={{ color: "white" }}>{userInfo.name}</span>
@@ -117,7 +121,7 @@ const Hearder = () => {
                       className="header-title__btn-logout"
                       onClick={handleLogout}
                     >
-                      Logout
+                      Đăng xuất
                     </button>
                   </div>
                 ) : (
@@ -134,15 +138,16 @@ const Hearder = () => {
                   </Link>
                 )}
               </div>
-
-              <Link to={ROUTES.CARTS_PAGE}>
-                <div className="shoppingCart">
-                  <div className="couter">{carts.length}</div>
-                  <ShoppingCartOutlined
-                    style={{ fontSize: "50px", color: "white" }}
-                  />
-                </div>
-              </Link>
+              <div>
+                <Link to={ROUTES.CARTS_PAGE}>
+                  <div className="shoppingCart">
+                    <div className="couter">{carts.length}</div>
+                    <ShoppingCartOutlined
+                      style={{ fontSize: "50px", color: "white" }}
+                    />
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -210,11 +215,17 @@ const Hearder = () => {
                 Thông tin cá nhân
               </Link>
             </li>
-            <li className="menu__item2 menu_item ">
-              <Link to={ROUTES.LOGIN_PAGE} className="menu_item2 menu_item ">
-                Đăng nhập/Đăng xuất
-              </Link>
-            </li>
+            {isAuth ? (
+              <li className="menu__item2 menu_item ">
+                <div onClick={handleLogout}>Đăng Xuất</div>
+              </li>
+            ) : (
+              <li className="menu__item2 menu_item ">
+                <Link to={ROUTES.LOGIN_PAGE} className="menu_item2 menu_item ">
+                  Đăng nhập/Đăng xuất
+                </Link>
+              </li>
+            )}
           </ul>
         </div>
       </div>

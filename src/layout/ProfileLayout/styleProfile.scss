@@ -1,0 +1,39 @@
+.layoutprofile{
+    display: flex;
+    &_sibar{
+        width: 30%;
+    }
+    &_content{
+        margin-top: 20px;
+        width: 70%;
+    }
+}
+@media  screen and  (max-width:1023px) {
+    .layoutprofile{
+        display: flex;
+        justify-content: space-between;
+        &_sibar{
+            width: 25%;
+            left: 0;
+        }
+        &_content{
+            margin-top: 20px;
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width:767px ) {
+    .layoutprofile{
+        display: flex;
+        flex-direction: column;
+        &_sibar{
+            margin: 0 auto;
+            width: 90%;
+        }
+        &_content{
+            margin-top: 20px;
+            width: 100%;
+        }
+    }
+
+}

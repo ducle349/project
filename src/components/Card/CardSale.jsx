@@ -1,7 +1,7 @@
 import React from "react";
 import { generatePath, useNavigate } from "react-router-dom";
 import { ROUTES } from "../../constants/Routes";
-
+import "./stylecardsale.scss";
 const CardSale = (props) => {
   const { item } = props;
   console.log("id", item);

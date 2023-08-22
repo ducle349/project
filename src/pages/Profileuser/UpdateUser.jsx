@@ -54,10 +54,10 @@ const UpdateUser = () => {
   return (
     <>
       <div className="form-updateuser">
-        <div className="image">
+        <div className="form-updateuser-image">
           <Link to={"/products?status=sale"}>
             <img
-              className="image"
+              style={{ width: "100%" }}
               src="https://myshoes.vn/image/cache/catalog/2022/banner/slide-trai-20-300x500h.png"
               alt="sale"
             ></img>
@@ -65,8 +65,8 @@ const UpdateUser = () => {
         </div>
         <form className="input-updateuser" onSubmit={handleSubmit(onValid)}>
           <h2 style={{ textAlign: "center" }}>ĐỔI THÔNG TIN</h2>
-          <div className="input-form__item">
-            <label className="input-form__label" style={{ minWidth: 200 }}>
+          <div className="input-form__item item-updateuser">
+            <label className="input-form__label" style={{ minWidth: 150 }}>
               Họ và tên
             </label>
             <div>
@@ -83,8 +83,8 @@ const UpdateUser = () => {
             </div>
           </div>
 
-          <div className="input-form__item">
-            <label className="input-form__label" style={{ minWidth: 200 }}>
+          <div className="input-form__item item-updateuser">
+            <label className="input-form__label" style={{ minWidth: 150 }}>
               Địa chỉ
             </label>
             <div>
@@ -103,8 +103,8 @@ const UpdateUser = () => {
             </div>
           </div>
 
-          <div className="input-form__item">
-            <label className="input-form__label" style={{ minWidth: 200 }}>
+          <div className="input-form__item item-updateuser">
+            <label className="input-form__label" style={{ minWidth: 150 }}>
               Số điện thoại
             </label>
             <div>
@@ -138,10 +138,10 @@ const UpdateUser = () => {
             </Button>
           </div>
         </form>
-        <div className="image">
+        <div className="form-updateuser-image">
           <Link to={"/products?status=sale"}>
             <img
-              className="image"
+              style={{ width: "100%" }}
               src="https://myshoes.vn/image/cache/catalog/2023/banner/banner-sale-side-240x390.png"
               alt="sale"
             ></img>

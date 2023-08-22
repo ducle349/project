@@ -68,12 +68,26 @@ const Cart = (props) => {
   return (
     <>
       <tr>
-        <td>
-          <img src={imageUrl} alt="img" style={{ width: 100 }} />
+        <td className="col1-item">
+          <img className="col1-item-img" src={imageUrl} alt="img" />
         </td>
-        <td>{title}</td>
-        <td>{size >= 100 ? <span>{size} ml</span> : <span>{size}</span>}</td>
-        <td>
+        <td className="col2-item col2-layout1">
+          <p className="col2-item" style={{ margin: 0 }}>
+            {title}
+          </p>
+          <p className="col2-layout2">
+            {" "}
+            {size >= 100 ? (
+              <span>Size: {size} ml</span>
+            ) : (
+              <span>Size: {size}</span>
+            )}
+          </p>
+        </td>
+        <td className="col3">
+          {size >= 100 ? <span>{size} ml</span> : <span>{size}</span>}
+        </td>
+        <td className="col4-item">
           <input
             type="number"
             onClick={handleChangeQuantity}
@@ -82,15 +96,15 @@ const Cart = (props) => {
             min={0}
           ></input>
         </td>
-        <td>
+        <td className="col5-item">
           {salePercentage ? (
             <span>{formatNumber(salePercentage)}₫</span>
           ) : (
             <span>{formatNumber(price)}₫</span>
           )}
         </td>
-        <td>{formatNumber(total)}₫</td>
-        <td>
+        <td className="col6-item">{formatNumber(total)}₫</td>
+        <td className="col7-item">
           <DeleteOutlined
             onClick={() => {
               handleDeleteCart(id);

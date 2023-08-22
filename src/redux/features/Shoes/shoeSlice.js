@@ -80,7 +80,6 @@ const shoeSlice = createSlice({
       state.searchKey = action.payload;
     },
     fiterProduct: (state, action) => {
-      console.log("action:", action.payload);
       if (action.payload.type === "size") {
         state.params.size_like = action.payload.value;
       }

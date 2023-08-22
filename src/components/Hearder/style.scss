@@ -59,7 +59,6 @@
         font-size: 20px;
         font-weight: 700;
         margin-bottom: 10px;
-
 }
 .menu__item:hover .menu_item{
    color: rgb(255, 51, 0);}
@@ -77,8 +76,17 @@
 .menu__item2{
     display: none;
 }
+.nameuser{
+    display: none;
+}
 // @media only screen and (min-width: 768px) and (max-width:1023px)
 @media  screen and  (max-width:1023px) {
+    .nameuser{
+        display: block;
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
     .header-title{
         display: flex;
         justify-content: space-between;
@@ -104,7 +112,8 @@
           
         }
         &-block3{
-            width: 10%;
+            width: 30%;
+         
         }
         &__formlogin{
             display: flex;
@@ -139,56 +148,43 @@
     .menu{
         padding-bottom: 20px;
         flex-direction: column;
+        background: rgba(40, 99, 161, 0.8);
         position: absolute;
-        width: 30%;
+        width: 50%;
+        height: 100vw;
         padding-left: 20px;
         transform: translateX(-100%);
         transition: 0.5s ease-in;
     }
     .menu__item{
-       
         margin-bottom: 10px;
-
+}    
+.menu_item{
+    color: red;
 }
-//   .search-toggler{
-//         display: block;
-//        top: 0;
-//     }
-//     .header-title__search{
-//         display: none;
-//     }
-    
+.menu__item:hover .menu_item{
+    color: rgb(231, 229, 71);}
+.menu__item2:hover .menu_item{
+        color: rgb(231, 229, 71);}
 }
-// @media screen and (max-width:767px ) {
-//     .header {
-//         position:fixed ;
-//         top: 0;
-//         left: 0;
-//         right: 0;
-//         margin-bottom: 5px;
-//     }
-//     .menu_toggler{
-//         display: block;
-//         margin: 2px;
-//     }
-//     .menu{
-//         position: fixed;
-//         flex-direction: column;
-//         width: 30%;
-//         padding-left: 20px;
-//         transform: translateX(-100%);
-//         transition: 0.5s ease-in;
-//     }
-//     .menu_item{
-//         margin-bottom: 5px;
-//     }
-//     .search-toggler{
-//         display: block;
-//     }
-//     .header-title__search{
-//         display: none;
-//     }
-// }
+@media screen and (max-width:767px ) {
+    .menu{
+        width: 70%;
+    }
+    .header-title__search{
+       margin-left: 10px;
+        position: absolute;
+        width: 95%;
+        bottom:-25px;
+        left: 0;
+    }
+    .header-title__logo{
+        width: 100px;
+    }
+    .header-title-block3{
+        width: 50%;
+    }
+}
 .menu_active{
     transform: translateX(0);
 }

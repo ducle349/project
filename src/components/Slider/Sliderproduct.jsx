@@ -54,7 +54,10 @@ const Sliderproduct = (props) => {
     ],
   };
   return (
-    <div className="container" style={{ maxWidth: 900, textAlign: "center" }}>
+    <div
+      className="container"
+      style={{ maxWidth: 900, textAlign: "center", marginTop: 20 }}
+    >
       <h2> Sản phẩm giảm giá</h2>
       <Slider {...settings}>{render(productSale)}</Slider>
       <Link to={"/products?status=sale"}>

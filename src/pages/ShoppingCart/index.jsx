@@ -110,16 +110,16 @@ const ShoppingCart = () => {
       <div className="cart">
         <h2 className="cart-title">GIỎ HÀNG CỦA BẠN</h2>
         <div className="cart-content">
-          <table className="table">
+          <table class="table table-hover">
             <tbody>
               <tr>
-                <td>Hình ảnh</td>
-                <td>Tên sản phẩm</td>
-                <td>Size</td>
-                <td>Số lượng</td>
-                <td>Đơn giá</td>
-                <td>Tổng cộng</td>
-                <td>Xóa</td>
+                <td className="col1">Hình ảnh</td>
+                <td className="col2">Tên sản phẩm</td>
+                <td className="col3">Size</td>
+                <td className="col4">Số lượng</td>
+                <td className="col5">Đơn giá</td>
+                <td className="col6">Tổng cộng</td>
+                <td className="col7">Xóa</td>
               </tr>
               {renderTasklist(carts)}
             </tbody>
