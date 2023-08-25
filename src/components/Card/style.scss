@@ -4,7 +4,29 @@
    border-radius: 50%;
     right: 0;
     top: 0;
+    z-index: 3;
 }
 .card{
     position: relative;
+
+}
+.product-item{
+    transition: all 0.3s ease-in-out;
+}
+.product-item:hover .img-card{
+    z-index: 2;
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.salePercentage{
+    min-width: 35px;
+    background-color: red;
+    color: white;
+    font-style: 10px;
+    font-weight: 500;
+    padding: 3px;
+    position: absolute;
+    right: 5px;
+    top: 50px;
+    z-index: 3;
 }

@@ -4,7 +4,6 @@ import { Select } from "antd";
 import "./style.scss";
 const Search = (props) => {
   const { handlesearchSize, handleSortPrice, handleDeleteFilter } = props;
-
   const sortPrice = (value) => {
     handleSortPrice(value);
   };

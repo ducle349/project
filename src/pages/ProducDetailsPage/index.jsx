@@ -38,8 +38,9 @@ const DetailsPage = () => {
   const shoe = useSelector((state) => state.shoe.currentShoe);
   const [valueSize, setValueSize] = useState("");
   const [quantity, setQuantity] = useState(1);
-  const [isValid, setIsValid] = useState(false);
+  const [isValid, setIsValid] = useState("");
   const onChangeSize = (e) => {
+    setIsValid(true);
     setValueSize(e.target.value);
   };
   const handlechangeQTY = (e) => {
@@ -240,7 +241,7 @@ const DetailsPage = () => {
               type="number"
               defaultValue={1}
               onChange={handlechangeQTY}
-              min={0}
+              min={1}
               style={{ width: 50, marginLeft: 10, textAlign: "center" }}
             ></input>
           </div>
@@ -264,7 +265,7 @@ const DetailsPage = () => {
                 style={{ backgroundColor: "red" }}
                 onClick={showModal}
               >
-                Thanh toán
+                THANH TOÁN
               </Button>
               <Modal
                 title="thanh toán đơn hàng "

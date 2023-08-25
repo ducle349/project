@@ -30,8 +30,11 @@ const Sliderproduct = (props) => {
     slidesToShow: 3,
     slidesToScroll: 2,
     initialSlide: 0,
+    autoplay: true,
+    autoplaySpeed: 2000,
     nextArrow: <Arrow />,
     prevArrow: <Arrow />,
+
     responsive: [
       {
         breakpoint: 1024,
@@ -53,6 +56,7 @@ const Sliderproduct = (props) => {
       },
     ],
   };
+
   return (
     <div
       className="container"

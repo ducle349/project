@@ -131,7 +131,6 @@ const userSlice = createSlice({
       globalNavigate(ROUTES.LOGIN_PAGE);
     });
     builder.addCase(actupdateInfoUserById.fulfilled, (state, action) => {
-      console.log("action", action.payload);
       message.success("cập nhật thông tin thành công");
       globalNavigate(ROUTES.HOME_PAGE);
     });

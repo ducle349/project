@@ -23,7 +23,7 @@ const RenderComments = (props) => {
     );
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [props.productDetails.id, comment, rate]);
-  console.log("leng", productComments);
+
   const handleSendComments = () => {
     const _Comments = {
       rate: rate || 0,

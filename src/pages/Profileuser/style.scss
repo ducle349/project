@@ -43,7 +43,7 @@
 }
 .info-content{
     margin-top: 10px;
-    width: 90%;
+    width: 70%;
     box-shadow: 0px 0px 5px 5px rgba($color: rgb(18, 20, 31), $alpha: 0.2) ;
     border-radius: 20px;
     background-color: rgba($color: #1215c2, $alpha: 0.5);
@@ -55,6 +55,9 @@
         font-size: 20px;
         font-weight: 500;
        
+}
+.info-content{
+    width: 90%;
 }
 }
 @media screen and (max-width:767px ) {
@@ -75,7 +78,7 @@
            
     }
     .info-content{
-      
+       
         margin-bottom: 10px;
         
     }

@@ -103,7 +103,7 @@ const Hearder = () => {
                 <span>{userInfo.name}</span>
               </div>
               <div className="formlogin-item">
-                <Link to={ROUTES.PROFILEUSER_PAGE}>
+                <Link to={ROUTES.INFORUSER_PAGE}>
                   <Avatar size={40} icon={<UserOutlined />} />
                 </Link>
 
@@ -209,7 +209,7 @@ const Hearder = () => {
             </li>
             <li className="menu__item2 menu_item">
               <Link
-                to={ROUTES.PROFILEUSER_PAGE}
+                to={ROUTES.INFORUSER_PAGE}
                 className="menu_item2 menu_item "
               >
                 Thông tin cá nhân

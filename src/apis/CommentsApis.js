@@ -26,9 +26,7 @@ export const productCommentApi = {
         `${process.env.REACT_APP_BE_URL}productComments/${id}`,
         item
       );
-    } catch (error) {
-      console.log((error, "error put comment in api"));
-    }
+    } catch (error) {}
   },
   getProductCommentById: async (productId) => {
     const { data } = await axios.get(

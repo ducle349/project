@@ -34,7 +34,7 @@ const Card = (props) => {
         {props.shoe.salePercentage ? (
           <div className="img-sale">
             <img
-              className="img-sale"
+              className="img-sale "
               src="https://static.vecteezy.com/system/resources/previews/000/554/854/original/sale-text-badge-sign-vector.jpg"
               alt="sale"
             ></img>
@@ -42,8 +42,16 @@ const Card = (props) => {
         ) : (
           ""
         )}
-
-        <img src={props.shoe.imageUrl} alt="img" className="card-img-top " />
+        {props.shoe.salePercentage ? (
+          <div className="salePercentage">{props.shoe.salePercentage}%</div>
+        ) : (
+          ""
+        )}
+        <img
+          src={props.shoe.imageUrl}
+          alt="img"
+          className="card-img-top img-card "
+        />
         <div className="card-body" style={{ padding: 0 }}>
           <p className="card-text" style={{ margin: 0 }}>
             {props.shoe.producer}

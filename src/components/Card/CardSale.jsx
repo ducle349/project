@@ -4,7 +4,6 @@ import { ROUTES } from "../../constants/Routes";
 import "./stylecardsale.scss";
 const CardSale = (props) => {
   const { item } = props;
-  console.log("id", item);
   const navigate = useNavigate();
   const handleToDtailPage = () => {
     const shoeId = props.item.id;
@@ -40,6 +39,7 @@ const CardSale = (props) => {
             alt="sale"
           ></img>
         </div>
+        <div className="salePercentage"> {item.salePercentage}%</div>
         <p className="card-title" style={{ minHeight: 75 }}>
           {item.title}
         </p>

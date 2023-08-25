@@ -9,9 +9,7 @@ export const actAddComment = createAsyncThunk(
   async (inputComment) => {
     try {
       return await productCommentApi.addComment(inputComment);
-    } catch (error) {
-      console.log(error, "error");
-    }
+    } catch (error) {}
   }
 );
 export const actGetAllComments = createAsyncThunk(
@@ -42,15 +40,9 @@ export const productCommentsSlice = createSlice({
     builder.addCase(actGetAllComments.fulfilled, (state, action) => {
       state.productComments = action.payload;
     });
-    builder.addCase(actAddComment.pending, (state, action) => {
-      console.log(action.payload, "pending");
-    });
-    builder.addCase(actAddComment.rejected, (state, action) => {
-      console.log(action.payload, "reject");
-    });
-    builder.addCase(actAddComment.fulfilled, (state, action) => {
-      console.log(action.payload, "actAddComment fulfilled");
-    });
+    builder.addCase(actAddComment.pending, (state, action) => {});
+    builder.addCase(actAddComment.rejected, (state, action) => {});
+    builder.addCase(actAddComment.fulfilled, (state, action) => {});
   },
 });
 export const { setErrors } = productCommentsSlice.actions;

@@ -29,8 +29,6 @@
     {
       "id": 1,
       "producer": "nike",
-      "status": "sale",
-      "salePercentage": 50,
       "title": "Giày nike Air Max Command Nam - Xám Xanh",
       "price": 2690000,
       "size": [
@@ -61,7 +59,7 @@
       "id": 3,
       "producer": "nike",
       "status": "sale",
-      "salePercentage": 5,
+      "salePercentage": 35,
       "title": "GIÀY NIKE SB ALLEYOOP NAM - TRẮNG",
       "price": 1890000,
       "size": [
@@ -89,7 +87,7 @@
       "id": 5,
       "producer": "nike",
       "status": "sale",
-      "salePercentage": 12,
+      "salePercentage": 25,
       "title": "GIÀY NIKE COURT VISION LOW NAM - TRẮNG XANH",
       "price": 1990000,
       "size": [
@@ -546,6 +544,8 @@
     {
       "id": 37,
       "producer": "lacoste",
+      "status": "sale",
+      "salePercentage": 50,
       "title": "GIÀY LACOSTE L001 321 NAM - TRẮNG XÁM",
       "price": 2790000,
       "size": [
@@ -906,6 +906,38 @@
       "total": 1490000,
       "createAt": "21/08/2023",
       "id": 12
+    },
+    {
+      "name": "LÊ MINH ĐỨC",
+      "address": "Lệ Xuyên",
+      "numberphone": "0396957819",
+      "carts": [
+        {
+          "id": 3,
+          "producer": "nike",
+          "title": "GIÀY NIKE SB ALLEYOOP NAM - TRẮNG",
+          "price": 1890000,
+          "salePercentage": 1795500,
+          "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/nike/nk012/giay-nikesb-alleyoop-nam-trang-01-800x800.jpg",
+          "size": 39,
+          "quantity": 2,
+          "total": 3591000
+        },
+        {
+          "id": 4,
+          "producer": "nike",
+          "title": "GIÀY NIKE AIR MAX AP NAM - ĐEN XANH LÁ",
+          "price": 2590000,
+          "imageUrl": "https://myshoes.vn/image/cache/catalog/2023/nike/nk012/giay-nike-air-max-ap-nam-den-xanh-la-01-800x800.jpg",
+          "size": 42,
+          "quantity": 2,
+          "total": 5180000
+        }
+      ],
+      "idUser": 3,
+      "total": 8771000,
+      "createAt": "22/08/2023",
+      "id": 13
     }
   ],
   "productComments": [
@@ -971,6 +1003,33 @@
       "commentsContent": "good",
       "createdAt": "Tue Aug 15 2023 6:20:40 PM",
       "id": 7
+    },
+    {
+      "rate": 4,
+      "productId": 27,
+      "email": "duc@gmail.com",
+      "fullName": "aka 47",
+      "commentsContent": "quá tốt",
+      "createdAt": "Fri Aug 25 2023 9:08:51 PM",
+      "id": 8
+    },
+    {
+      "rate": 3,
+      "productId": 27,
+      "email": "duc@gmail.com",
+      "fullName": "aka 47",
+      "commentsContent": "vì sao",
+      "createdAt": "Fri Aug 25 2023 9:09:11 PM",
+      "id": 9
+    },
+    {
+      "rate": 5,
+      "productId": 6,
+      "email": "duc@gmail.com",
+      "fullName": "aka 47",
+      "commentsContent": "quá ok",
+      "createdAt": "Fri Aug 25 2023 9:09:25 PM",
+      "id": 10
     }
   ]
 }
