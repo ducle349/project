@@ -8,22 +8,16 @@ const initialState = {
   isLoading: false,
   oders: [],
   errors: {},
-  pagination: {
-    currentPage: 1,
-    limitPerPage: 8,
-    total: 8,
-  },
 };
 export const actFetchAllOder = createAsyncThunk(
   "oders/fetchAllOder",
-  async () => {
-    const response = await OderAPIs.getAllOders();
+  async (params = {}) => {
+    const response = await OderAPIs.getAllOders(params);
     return response.data;
   }
 );
-
 const oderSlice = createSlice({
-  name: "oder",
+  name: "oders",
   initialState: initialState,
   reducers: {
     actSetShoes: (state, action) => {
@@ -43,7 +37,6 @@ const oderSlice = createSlice({
     });
     builder.addCase(actFetchAllOder.fulfilled, (state, action) => {
       state.oders = action.payload;
-
       state.isLoading = false;
     });
   },

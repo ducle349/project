@@ -10,12 +10,18 @@ import Oder from "../../components/Oder";
 
 const Oders = () => {
   const { oders, isLoading } = useSelector((state) => state.oder);
-
+  const { userInfo } = useSelector((state) => state.user);
   const dispatch = useDispatch();
+  const userInfoId = userInfo.id;
   useEffect(() => {
-    dispatch(actFetchAllOder());
+    dispatch(
+      actFetchAllOder({
+        idUser: userInfoId,
+      })
+    );
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [userInfoId]);
 
   const renderOders = () => {
     return oders.map((oder) => {

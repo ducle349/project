@@ -35,7 +35,6 @@ const ProductsPage = () => {
         status: status,
       })
     );
-
     return () => {
       dispatch(setNewPage(1));
     };
